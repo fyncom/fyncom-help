@@ -4,36 +4,36 @@
 
 There are 2 options for rewarding email engagement.
 
-#### Option 1
+#### Option 1 - Scalable
 
 The easiest option is to create a Marketing Email through [Sendgrid](https://sendgrid.com/) and save it as a draft. Then, once you have logged into your FynCom 
 dashboard, you assign a rewards campaign to the Sendgrid draft + send. <br>
 For this to work, you must provide your Sendgrid API key through your [FynCom settings](https://dashboard.fyncom.com/settings). This method lets you run 
 multiple rewards campaigns at the same time.
 
-#### Option 2
+#### Option 2 - Simple
 
 Designate a dedicated email address which will be only be used for FynCom marketing campaigns. Anyone who responds to an email from that address gets 
 rewarded the value of the last campaign created. This email address can be used to send conditional rewards with every email you send. <br>
 **Note: Only 1 reward campaign can be active at a time.**
 
 
-|                                                                                      | Option 1                              |Option 2|
-|:-------------------------------------------------------------------------------------|:--------------------------------------|:----|
-|                                                                                      | Sendgrid API integration              |Use anywhere, no API needed|
-| Requires you to forward incoming emails to “me@rewards.fyncom.com”?                  | Yes. (Soon, this will be automated).  |Yes|
-| Run multiple reward campaigns at same time?                                          | Yes                                   |No, only the last -created rewards campaign will be active.|
-| People must first receive an email from you and then reply in order to get a reward? | Yes                                   | Yes                                                       |
-| Send from any email platform?                                                        | No, only Sendgrid.                    | Yes                                                       |
-| Use native email client on web or mobile?                                            | No                                    | Yes                                                       |
-| Reward link clicks?                                                                  | Yes                                   | Yes                                                       |
-| Recipient gets email notifying them of their reward?                                 | Yes                                   | Yes                                                       |
+|                                                                                      | Option 1 - Scalable                  | Option 2 - Simple                                                   |
+|:-------------------------------------------------------------------------------------|:-------------------------------------|:--------------------------------------------------------------------|
+|                                                                                      | Sendgrid API integration             | Use anywhere, no API needed                                         |
+| Requires you to forward incoming emails to “send@rewards.fyncom.com”?                   | Yes. (Soon, this will be automated). | Yes                                                                 |
+| Run multiple reward campaigns at same time?                                          | Yes                                  | No, only the most recenlty created Rewards Campaign will be active. |
+| People must first receive an email from you and then reply in order to get a reward? | Yes                                  | Yes                                                                 |
+| Send from any email platform?                                                        | No, only Sendgrid.                   | Yes                                                                 |
+| Use native email client on web or mobile?                                            | No                                   | Yes                                                                 |
+| Reward link clicks?                                                                  | Yes                                  | Yes                                                                 |
+| Recipient gets email notifying them of their reward?                                 | Yes                                  | Yes                                                                 |
 
 
 ## Email Link Clicks
 
 You may choose to reward someone for clicking a link in your email. This option should only be used if you want to drive traffic to a specific landing page. <br>
-If interested in thie feature, please contact us at support@fyncom.com
+If interested in this feature, please contact us at support@fyncom.com
 
 ## Email Case Study - FynCom &amp; Marketing Executives.
 
@@ -54,16 +54,16 @@ This uses a Text/Call/Text system.
 2. You (customer) call them at that time
 3. You can set a price per minute ($0.01 / second is a popular choice)
 4. They (user) answer the call and their timer begins ticking. The moment the phone gets disconnected, the user is sent a text message letting them know of 
-the amount they were paid perceive for this cold call.
+the amount they were paid for this cold call and how they can retrieve their funds.
 
 ## The FynCom User Experience
 
 ## Gift Card Cashout
 
 Users can log in to their app ([app.fyncom.com](https://app.fyncom.com/)) to select the gift card of choice. Once they have $5 worth of rewards, 
-they can cash out. Gift card denominations are typically $5, $10, and $25+
+they can cash out. Gift card denominations are typically $5, $10, and $25+. Some gift cards will have options for any denomination above $5.
 
 ## Cryptocurrency or Cash withdrawal
 
 Users can withdraw any amount of their rewards to their [nano cryptocurrency account](https://nano.org/) (a nano account is automatically assigned to
-their email). The user may transfer to their own private wallet or to an Exchange account such as on [Kraken](https://www.kraken.com/)or [Binance.us](https://www.binance.us/en/home)
+their email or phone number). The user may transfer to their own private wallet or to an Exchange account such as on [Kraken](https://www.kraken.com/) or [Binance.us](https://www.binance.us/en/home)

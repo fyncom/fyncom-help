@@ -2,7 +2,7 @@
 
 --------
 
-**\*The only emails that will be able to trigger FynCom rewards are the ones you registered in the** [**FynCom dashboard**](https://dashboard.fyncom.com/) **, 
+**\*The only emails that will be able to trigger FynCom rewards are the ones you registered in the** [**FynCom dashboard**](https://dashboard.fyncom.com/)**, 
 as well as their aliases.**
 
 ## Setting up your Alias Email (Optional)
