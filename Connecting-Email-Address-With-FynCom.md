@@ -1,57 +1,59 @@
-# Connecting Email Address with FynCom
+# Connecting Email Address with FynCom for Marketing Rewards
 
---------
+---
 
-**\*The only emails that will be able to trigger FynCom rewards are the ones you registered in the** [**FynCom dashboard**](https://dashboard.fyncom.com/)**, 
-as well as their aliases.**
+**The only emails that will be able to trigger FynCom rewards are the ones you registered in the [FynCom dashboard](https://dashboard.fyncom.com/), or
+invited as employees with ADMIN or WRITE roles.** <br>
+_Note 1: This option is best for marketing teams sending sending marketing or transactional emails through API-based email service providers_.
 
-## Setting up your Alias Email (Optional)
+## Setting up your email forwarding for "Marketing Emails" or "Basic Emails"
+_Note 2: Any email that participate in FynCom Rewards needs to forward its incoming emails through this guide or through 
+the ["Simple emails" guide](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery)._ <br>
+_Note 3: These steps are specific to Gmail, but similar processes can be used for other email providers._
 
-Set up an alias email (optional) - Note: These steps are specific to Gmail, but similar processes can be used for other email providers
+1. On your Gmail home page, click the **gear wheel** in the upper right to access the **setting tab**.
+   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-1.png) <br><br>
+2. This will open up a sidebar where you can "**See all settings**". Select that option.
+   ![go to your email settings](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-2.png) <br><br>
+3. Once inside the Settings menu, select the "**Forwarding and POP/IMAP**" option.
+   ![Select the Forwarding option](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-3.png) <br><br>
+4. Once inside the "**Forwarding and POP/IMAP**" menu, select the option to "**Add a forwarding address**".
+   ![Once in the forwarding page, select the option to "Add a forwarding address"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-4.png) <br><br>
+5. This will create a pop-up where you should enter the following email address and hit next. <br>
+   1. [send@rewards.fyncom.com](mailto:send@rewards.fyncom.com) <br>
+      _Note: This does not start forwarding emails yet. You will need to click a confirmation link which will immediately emailed to you after completing these steps._ <br>
+      ![add the fowarding email "simple@rewards.fyncom.com"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-AddForwarding.png) <br><br>
+   2. A pop up dialog box will appear. Select "**Proceed**". <br>
+      ![select the option to proceed forwarding emails](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-Proceed.png) <br><br>
+   3. A pop up box will appear, letting you know that you will need a code from FynCom. Select "**Ok**" on the next pop-up box that appears.<br>
+      ![Select OK on the confirmation window](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-Ok.png) <br><br>
+6. At this point, you will be sent an email with the confirmation link. Open the email and click the link, then select "**Confirm**" on the next page. You 
+should see some success notification.
+   ![At this point, you should have an email in your inbox with a confirmation link](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-Email.png) <br><br>
+   ![Click the confirmation link and on the new page, select "Confirm" to proceed](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-ConfirmForwarding.png) <br><br>
+   ![Once you reach the success window, proceed to the next step](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-FowardSuccessful.png) <br><br>
 
-1. On your GMail home page, click the **gear wheel** in the upper right to access the **setting tab**
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-1.png)
-2. This will open up a sidebar where you can "**See all settings**". Select that option
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-2.png)
-3. Once inside the Settings menu, select the "**Forwarding and POP/IMAP**" option
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-3.png)
-4. Once inside the "**Forwarding and POP/IMAP**" menu, select the option to "**Add a forwarding address**"
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-4.png)
-5. This will create a pop-up where you should enter the following email address and hit next.
-   1. [rewards@rewards.fyncom.com](mailto:rewards@rewards.fyncom.com) <br>
-   \*Note: This does not start forwarding emails just yet, you will need to enter a code which we will provide to you.
-      ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-5.png)
-   2. A pop up dialog box will appear. Select "**Proceed**"
-      ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-6.png)
-   3. A pop up box will appear, letting you know that you will need a code from FynCom. Select "**Ok**" on the next pop-up box that appears.
-      ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-7.png)
-6. At this stage, FynCom support will respond to you with the Confirmation Code, which you should enter into the "**confirmation code**" field. Once that is 
-entered, select "**Verify**".
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-8.png)
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-9.png)
+7. After you see the success page, please proceed to the "**Filters and Blocked Addresses**" page.
+   ![Select the Filters tab to create your filter](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-10.png) <br><br>
 
-7. After the confirmation code has been entered, please proceed to the "**Filters and Blocked Addresses**" page.
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-10.png)
+8. Select "**Create a new filter**" <br>
+   ![Select "Create a new filter"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-11.png) <br><br>
 
-8. Select "**Create a new filter**"
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-11.png)
+9. Here is the most important step. In the "**To**" field, enter the email address that should trigger a FynCom reward and then select "**Create filter**".
 
-[//]: # (todo you wnat to fix this up to reflect the new changes )
-10. Here is the most important step. In the "**To**" field, enter the email address that should trigger a FynCom reward and then select "**Create filter**".
-    1. Keep in mind that FynCom will see all incoming emails to this particular email address. We advise that you create an alias and use that for your marketing
-    campaigns. If you are using GMail, [an alias can be made for free](https://support.google.com/mail/answer/22370?hl=en) by simply adding "+" and some 
-    characters after the "+", but before the ".com"<br>
-    For example, if your typical email is "[YOUR\_EMAIL\_GOES\_HERE@gmail.com](mailto:YOUR_EMAIL_GOES_HERE@gmail.com)", your alias can be 
-    2. "[YOUR\_EMAIL\_GOES\_HERE+rewards@gmail.com](mailto:YOUR_EMAIL_GOES_HERE+rewards@gmail.com)" as shown in the image below.
-       ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-12.png)
+   1. Please recall, any email that is expected to deliver rewards should forward its incoming emails as described here or as descirbed in the
+      ["Simple emails" guide](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery). An alias email is shown in the next images, but you 
+   may use your own email.
+      ![add your alias email in the TO field and select "Create filter"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-12.png) <br><br>
 
-11. Now, you should see a drop-down menu with a list of checkboxes.
+10. Now, you should see a drop-down menu with a list of checkboxes.
+
     1. Please select the "**Forward it to:**" checkbox
-    2. Hit the drop down arrow and select the "[**rewards@rewards.fyncom.com**](mailto:rewards@rewards.fyncom.com)" email
-    3. Select "**Create filter**"
-       ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-13.png)
+    2. Hit the drop down arrow and select the "[**send@rewards.fyncom.com**](mailto:send@rewards.fyncom.com)" email
+    3. Select "**Create filter**" <br>
+       ![Select the checkmark option of "Forward it to" and open the drop down menu to select "send@rewards.fyncom.com". Then select "Create filter"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-SetupForwarding.png) <br><br>
 
-[//]: # (todo update this picture with the actual new email forwaridng address.)
-12. If everything went right, you should be taken back to the "**Filters and Blocked Addresses**" page and the newly created filter should appear at the bottom. You can do this for as many alias emails as you want. At this point, you are ready to begin sending rewards for responses to these emails. Now you can go to the [FynCom dashboard](https://dashboard.fyncom.com/) to set up your triggers and values.
-    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-14.png)
-
+11. If everything went right, you should be taken back to the "**Filters and Blocked Addresses**" page and the newly created filter should appear at the bottom.
+You can do this for as many emails as you want. At this point, you are ready to begin sending emails that automatically reward responses. Now you can go to 
+the [FynCom dashboard](https://dashboard.fyncom.com/) to set up your triggers and values.
+    ![If you see the filter in your email dashboard as pictured, then you are done!](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-Done.png) <br><br>
