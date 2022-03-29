@@ -1,14 +1,15 @@
-# Setting up Sendgrid Drafts
+# Setting up Sendgrid Drafts for Marketing Emails
 
 --------
-[//]: # (todo Address the "basic" vs "advanced" payment plan here.... Simple emails can indeed send conditional rewards emails....)
-**\*The only emails that will be able to trigger FynCom rewards are the ones you send from the** [FynCom dashboard](https://dashboard.fyncom.com/)**.**
+**This is only for Marketing and Transactional\* emails which need to be sent from the [FynCom dashboard](https://dashboard.fyncom.com/) in order to trigger FynCom rewards when a recipient responds.**<br>
+_"Simple" emails can be written from anywhere else_ <br>
+*Transactional emails are not yet available.
 
 ## Setting up Sendgrid integration
 
 First, please make sure that you or your organization have input your Sendgrid API key through the [FynCom settings page](https://dashboard.fyncom.com/settings#).
 
-### From the Design Library.
+### From the Design Library
 
 One of the preferred ways our organization uses Sendgrid is to create a [Design Template](https://mc.sendgrid.com/design-library/your-designs) email. These are 
 reusable templates that can be used to create Marketing Email sends or Transactional Email sends. Here, we will use this to create a Marketing Email draft.
@@ -37,7 +38,7 @@ Campaign that should be associated with this email._
     - Unsubscribe Group
         - Select the unsubscribe group you want to be associated with this send. 
 - Sendgrid will auto-save this draft for you as you work, but just to be safe, click the "Save" button at the top. Do NOT send this yet. [Next, we will go into 
-the FynCom dashboard to attach a reward campaign to your draft and then send from your FynCom dashboard.](https://docs.google.com/document/d/19K9DL0ahJOlMT2bxzHfp1OsuvOzu7kgdDVIRdz3VOrQ/edit#)
+the FynCom dashboard to attach a reward campaign to your draft and then send from your FynCom dashboard.](https://www.fyncom.com/add-fyncom-rewards-to-sendgrid-marketing-email)
 ![When done filling out the required fields in Sendgrid, you are ready to head to FynCom dashboard to send](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/1+Setting+up+Sendgrid+Drafts.png)
 
 
