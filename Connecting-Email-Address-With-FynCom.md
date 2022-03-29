@@ -7,9 +7,9 @@ as well as their aliases.**
 
 ## Setting up your Alias Email (Optional)
 
-Set up an alias email (optional) - Note: These steps are specific to GMail, but similar processes can be used for other email providers
+Set up an alias email (optional) - Note: These steps are specific to Gmail, but similar processes can be used for other email providers
 
-1. On your GMail home page, click the **gear wheel** in the upper right to access the **setting tabs**
+1. On your GMail home page, click the **gear wheel** in the upper right to access the **setting tab**
    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-1.png)
 2. This will open up a sidebar where you can "**See all settings**". Select that option
    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-2.png)
