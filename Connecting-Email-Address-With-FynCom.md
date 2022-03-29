@@ -7,8 +7,8 @@ invited as employees with ADMIN or WRITE roles.** <br>
 _Note 1: This option is best for marketing teams sending sending marketing or transactional emails through API-based email service providers_.
 
 ## Setting up your email forwarding for "Marketing Emails" or "Basic Emails"
-_Note 2: Any email that participate in FynCom Rewards needs to forward its incoming emails through this guide or through 
-the ["Simple emails" guide](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery)._ <br>
+_Note 2: Any email that participate in FynCom Rewards needs to forward its incoming emails through this guide or through the
+<a href="https://www.fyncom.com/simple-email-rewards-setup" target="_blank">"Simple emails" guide</a>._ <br>
 _Note 3: These steps are specific to Gmail, but similar processes can be used for other email providers._
 
 1. On your Gmail home page, click the **gear wheel** in the upper right to access the **setting tab**.
@@ -42,7 +42,7 @@ should see some success notification.
 9. Here is the most important step. In the "**To**" field, enter the email address that should trigger a FynCom reward and then select "**Create filter**".
 
    1. Please recall, any email that is expected to deliver rewards should forward its incoming emails as described here or as descirbed in the
-      ["Simple emails" guide](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery). An alias email is shown in the next images, but you 
+      <a href="https://www.fyncom.com/simple-email-rewards-setup" target="_blank">"Simple emails" guide</a>. An alias email is shown in the next images, but you 
    may use your own email.
       ![add your alias email in the TO field and select "Create filter"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-12.png) <br><br>
 
