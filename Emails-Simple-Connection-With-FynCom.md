@@ -23,18 +23,18 @@ _Note 3: These steps are specific to Gmail, but similar processes can be used fo
 4. Once inside the "**Forwarding and POP/IMAP**" menu, select the option to "**Add a forwarding address**".
    ![Once in the forwarding page, select the option to "Add a forwarding address"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-4.png) <br><br>
 5. This will create a pop-up where you should enter the following email address and hit next.
-   1. [simple@rewards.fyncom.com](mailto:simple@rewards.fyncom.com) <br>
+   1. [send@simple-rewards.fyncom.com](mailto:send@simple-rewards.fyncom.com) <br>
    _Note: This does not start forwarding emails yet. You will need to click a confirmation link which will immediately emailed to you after completing these steps._
-      ![add the fowarding email "simple@rewards.fyncom.com"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleRewards.png) <br><br>
+      ![add the fowarding email "send@simple-rewards.fyncom.com"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail.png) <br><br>
    2. A pop up dialog box will appear. Select "**Proceed**". <br>
-   ![select the option to proceed forwarding emails](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimplerewardsComfirmation.png) <br><br>
+   ![select the option to proceed forwarding emails](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-Proceed.png) <br><br>
    3. A pop up box will appear, letting you know that you will need a code from FynCom. Select "**OK**" on the next pop-up box that appears. 
-      ![Select OK on the confirmation window](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleRewardsCode.png) <br><br>
+      ![Select OK on the confirmation window](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-OK.png) <br><br>
 6. At this point, you will be sent an email with the confirmation link. Open the email and click the link, then select "**Confirm**" on the next page. You should see some
 success notification.
-   ![At this point, you should have an email in your inbox with a confirmation link](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleRewardsEmail.png) <br><br>
-   ![Click the confirmation link and on the new page, select "Confirm" to proceed](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleRewardsEmail-Confirmation.png) <br><br>
-   ![Once you reach the success window, proceed to the next step](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleRewardsEmail-Success.png) <br><br>
+   ![At this point, you should have an email in your inbox with a confirmation link](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-EmailResponse.png) <br><br>
+   ![Click the confirmation link and on the new page, select "Confirm" to proceed](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-ConfirmForwarding.png) <br><br>
+   ![Once you reach the success window, proceed to the next step](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-FInal.png) <br><br>
 
 7. After you see the success page, please proceed to the "**Filters and Blocked Addresses**" page.
    ![Select the Filters tab to create your filter](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-10.png) <br><br>
@@ -52,12 +52,12 @@ success notification.
  
 10. Now, you should see a drop-down menu with a list of checkboxes.
     1. Please select the "**Forward it to:**" checkbox
-    2. Hit the drop down arrow and select the "[**simple@rewards.fyncom.com**](mailto:simple@rewards.fyncom.com)" email
+    2. Hit the drop down arrow and select the "[**send@simple-rewards.fyncom.com**](mailto:send@simple-rewards.fyncom.com)" email
     3. Select "**Create filter**" <br>
-       ![Select the checkmark option of "Forward it to" and open the drop down menu to select "simple@rewards.fyncom.com". Then select "Create filter"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SImpleRewardsSelection.png) <br><br>
+       ![Select the checkmark option of "Forward it to" and open the drop down menu to select "send@simple-rewards.fyncom.com". Then select "Create filter"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-FInal-GmailSetup.png) <br><br>
 
 11. If everything went right, you should be taken back to the "**Filters and Blocked Addresses**" page and the newly created filter should appear at the bottom. 
 You can do this for as many alias emails as you want. At this point, you are ready to begin sending emails that automatically reward responses. Now you can go to the 
 [FynCom dashboard](https://dashboard.fyncom.com/) to set up your triggers and values.
-    ![If you see the filter in your email dashboard as pictured, then you are done!](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SImpleRewardsSelection-Final.png) <br><br>
+    ![If you see the filter in your email dashboard as pictured, then you are done!](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/SimpleForwardingEmail-FInal-GmailSetup-Complete.png) <br><br>
 
