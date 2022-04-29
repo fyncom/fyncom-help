@@ -51,7 +51,8 @@ This uses a Text/Call/Text system.
 3. You can set a price per minute ($0.01 / second is a popular choice)
 4. They (user) answer the call and their timer begins ticking. The moment the phone gets disconnected, the user is sent a text message letting them know of 
 the amount they were paid for this cold call and how they can retrieve their funds.
-<br><br><br><br>
+
+<br><br>
 
 # <u>_The FynCom User Experience_</u>
 

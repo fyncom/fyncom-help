@@ -6,91 +6,22 @@
   <style>body { background-color: rgba(255, 255, 255, 255.0); font-size: 13px !important; } body, p, blockquote, ul, ol, dl, table, pre, code, tr { color: rgba(8, 8, 8, 255.0); } a { color: rgba(36, 112, 179, 255.0); } table td, table th { border: 1px solid rgba(209, 209, 209, 255.0); } hr { background-color: rgba(209, 209, 209, 255.0); } kbd, tr { border: 1px solid rgba(209, 209, 209, 255.0); } h6 { color: rgba(153, 153, 153, 255.0); } blockquote { border-left: 2px solid rgba(36, 112, 179, 0.4); } ::-webkit-scrollbar-thumb { background-color: rgba(115, 115, 115, 0.2); } blockquote, code, pre { background-color: rgba(212, 222, 231, 0.24705882352941178); }</style>
  </head> 
  <body>
-  <div md-src-pos="0..5336">
-   <h1 md-src-pos="0..41"><u><em md-src-pos="5..37">The FynCom Customer Experience</em></u></h1>
-   <h2 md-src-pos="43..69">Email Rewards (FynMail)</h2>
-   <p md-src-pos="71..122"><span md-src-pos="71..122">There are 2 options for rewarding email engagement.</span></p>
-   <ol md-src-pos="124..974">
-    <li md-src-pos="124..595"><strong md-src-pos="127..146">Scalable Emails</strong>
-     <ul md-src-pos="150..595">
-      <li md-src-pos="150..595">The easiest option is to create a Marketing Email through <a href="https://sendgrid.com/" md-src-pos="210..243">Sendgrid</a> and save it as a draft. Then, once you have logged into your FynCom dashboard, you assign a rewards campaign to the Sendgrid draft + send. <br> For this to work, you must provide your Sendgrid API key through your <a href="https://dashboard.fyncom.com/settings" md-src-pos="467..523">FynCom settings</a>. This method lets you run multiple rewards campaigns at the same time.</li>
-     </ul></li>
-    <li md-src-pos="596..974"><strong md-src-pos="599..616">Simple Emails</strong>
-     <ul md-src-pos="620..974">
-      <li md-src-pos="620..974">Designate a dedicated email address which will be only be used for FynCom marketing campaigns. Anyone who responds to an email from that address gets rewarded the value of the last campaign created. This email address can be used to send conditional rewards with every email you send. <br> <strong md-src-pos="917..974">Note: Only 1 reward campaign can be active at a time.</strong></li>
-     </ul></li>
+  <div md-src-pos="0..1196">
+   <h1 md-src-pos="0..31">Your cash and crypto accounts</h1>
+   <hr>
+   <h2 md-src-pos="43..67">Funding your accounts</h2>
+   <p md-src-pos="69..415"><span md-src-pos="69..143">FynCom makes sure your funds are moved in the most efficient way possible.</span> <span md-src-pos="144..189">You deposit funds via a credit or debit card,</span> <span md-src-pos="190..219">and we take care of the rest.</span> <br> <span md-src-pos="226..290">This is why our platform is able to deliver rewards ranging from</span> <span md-src-pos="291..307">$0.0000000001 to</span> <span md-src-pos="308..313">$999.</span> <span md-src-pos="314..389">Any values larger than that require a simple form of identity verification.</span><br> <span md-src-pos="394..398">Here</span>'<span md-src-pos="399..414">s how to start.</span></p>
+   <ol md-src-pos="517..1195">
+    <li md-src-pos="517..795"><strong md-src-pos="520..533">Add funds</strong>
+     <ol md-src-pos="537..795">
+      <li md-src-pos="537..694">Go to your <a href="https://dashboard.fyncom.com/wallet" md-src-pos="551..601">wallet page</a> and click "Add funds" to input your information. Payments are secured by Stripe. $5 minimum.</li>
+      <li md-src-pos="698..795">Once your funds are added, you'll see your "Available Fiat Balance" increase accordingly. <br></li>
+     </ol></li>
+    <li md-src-pos="796..1195"><strong md-src-pos="799..843">Cryptocurrency conversions are automated</strong> 
+     <ol md-src-pos="848..1195">
+      <li md-src-pos="848..1195">In order to reduce your exposure to crypto assests, FynCom converts $5 of crypto at a time. The first $5 is converted when you make your first campaign. <br> After that, your crypto balance is automatically reloaded from your fiat balance anytime your "Available Crypto Funds" drops below $0.50 or if your reward requires more crypto funds. </li>
+     </ol></li>
    </ol>
-   <table md-src-pos="976..2958">
-    <thead>
-     <tr md-src-pos="976..1173">
-      <th md-src-pos="977..1063"></th>
-      <th md-src-pos="1064..1102">Option 1 - Scalable</th>
-      <th md-src-pos="1103..1172">Option 2 - Simple</th>
-     </tr>
-    </thead>
-    <tbody>
-     <tr md-src-pos="1372..1569">
-      <td md-src-pos="1373..1459"></td>
-      <td md-src-pos="1460..1498">Sendgrid API integration</td>
-      <td md-src-pos="1499..1568">Use anywhere, no API needed</td>
-     </tr>
-     <tr class="intellij-row-even" md-src-pos="1570..1770">
-      <td md-src-pos="1571..1660">Requires you to forward incoming emails to “send@rewards.fyncom.com”?</td>
-      <td md-src-pos="1661..1699">Yes. (Soon, this will be automated).</td>
-      <td md-src-pos="1700..1769">Yes</td>
-     </tr>
-     <tr md-src-pos="1771..1968">
-      <td md-src-pos="1772..1858">Run multiple reward campaigns at same time?</td>
-      <td md-src-pos="1859..1897">Yes</td>
-      <td md-src-pos="1898..1967">No, only the most recenlty created Rewards Campaign will be active.</td>
-     </tr>
-     <tr class="intellij-row-even" md-src-pos="1969..2166">
-      <td md-src-pos="1970..2056">People must first receive an email from you and then reply in order to get a reward?</td>
-      <td md-src-pos="2057..2095">Yes</td>
-      <td md-src-pos="2096..2165">Yes</td>
-     </tr>
-     <tr md-src-pos="2167..2364">
-      <td md-src-pos="2168..2254">Send from any email platform?</td>
-      <td md-src-pos="2255..2293">No, only Sendgrid.</td>
-      <td md-src-pos="2294..2363">Yes</td>
-     </tr>
-     <tr class="intellij-row-even" md-src-pos="2365..2562">
-      <td md-src-pos="2366..2452">Use native email client on web or mobile?</td>
-      <td md-src-pos="2453..2491">No</td>
-      <td md-src-pos="2492..2561">Yes</td>
-     </tr>
-     <tr md-src-pos="2563..2760">
-      <td md-src-pos="2564..2650">Reward link clicks?</td>
-      <td md-src-pos="2651..2689">Yes</td>
-      <td md-src-pos="2690..2759">Yes</td>
-     </tr>
-     <tr class="intellij-row-even" md-src-pos="2761..2958">
-      <td md-src-pos="2762..2848">Recipient gets email notifying them of their reward?</td>
-      <td md-src-pos="2849..2887">Yes</td>
-      <td md-src-pos="2888..2957">Yes</td>
-     </tr>
-    </tbody>
-   </table>
-   <h2 md-src-pos="2961..2981">Email Link Clicks</h2>
-   <p md-src-pos="2983..3215"><span md-src-pos="2983..3050">You may choose to reward someone for clicking a link in your email.</span> <span md-src-pos="3051..3139">This option should only be used if you want to drive traffic to a specific landing page.</span> <br> <span md-src-pos="3145..3175">If interested in this feature,</span> <span md-src-pos="3176..3215">please contact us at support@fyncom.com</span></p>
-   <h2 md-src-pos="3217..3273">Email Case Study - FynCom &amp; Marketing Executives.</h2>
-   <p md-src-pos="3275..3729"><span md-src-pos="3275..3308">1,000 executives in the Marketing</span> <span md-src-pos="3309..3314">&amp;</span> <span md-src-pos="3315..3381">Advertising space were cold-emailed with information about FynCom.</span> <span md-src-pos="3382..3425">This email contained no language about them</span> <span md-src-pos="3427..3446">receiving a reward.</span> <span md-src-pos="3447..3460">A week later,</span> <span md-src-pos="3461..3507">the same 1,000 executives were sent a FynMail,</span> <span md-src-pos="3508..3582">which informed them that they could receive a reward by simply responding.</span> <span md-src-pos="3584..3607">This resulted in a 323%</span> <span md-src-pos="3608..3644">increase in positive response rates.</span> <span md-src-pos="3645..3729">Using FynMails is a great way to get your foot in the door and begin a conversation.</span></p>
-   <h2 md-src-pos="3731..3757">Texts Rewards (FynText)</h2>
-   <p md-src-pos="3759..4029"><span md-src-pos="3759..3815">You can reward someone for responding to a text message.</span> <a href="https://www.slicktext.com/" md-src-pos="3816..3855">Slicktext</a> <span md-src-pos="3856..3903">is our current text message platform of choice.</span> <span md-src-pos="3905..3909">More</span> <a href="https://docs.google.com/document/d/1g6aD-PduabC7FffhTBFVFvFJe6detAaC3X18RikApj4/edit?usp=sharing" md-src-pos="3910..4028">documentation here</a><span md-src-pos="4028..4029">.</span></p>
-   <h2 md-src-pos="4031..4098">Call Rewards (FynCall) - Only ready for fearless early adopters.</h2>
-   <p md-src-pos="4100..4134"><span md-src-pos="4100..4134">This uses a Text/Call/Text system.</span></p>
-   <ol md-src-pos="4136..4588">
-    <li md-src-pos="4136..4235">Recipient receives text message letting them know they will receive a rewards call in 20 minutes</li>
-    <li md-src-pos="4236..4276">You (customer) call them at that time</li>
-    <li md-src-pos="4277..4347">You can set a price per minute ($0.01 / second is a popular choice)</li>
-    <li md-src-pos="4348..4588">They (user) answer the call and their timer begins ticking. The moment the phone gets disconnected, the user is sent a text message letting them know of the amount they were paid for this cold call and how they can retrieve their funds.</li>
-   </ol>
-   <p md-src-pos="4590..4598"><br><br></p>
-   <h1 md-src-pos="4600..4637"><u><em md-src-pos="4605..4633">The FynCom User Experience</em></u></h1>
-   <h2 md-src-pos="4639..4659">Gift Card Cashout</h2>
-   <p md-src-pos="4661..4947"><span md-src-pos="4661..4690">Users can log in to their app</span> (<a href="https://app.fyncom.com/" md-src-pos="4692..4733">app.fyncom.com</a>) <span md-src-pos="4735..4769">to select the gift card of choice.</span> <span md-src-pos="4770..4784">Once they have</span> <span md-src-pos="4785..4805">$5 worth of rewards,</span> <span md-src-pos="4807..4825">they can cash out.</span> <span md-src-pos="4826..4863">Gift card denominations are typically</span> <span md-src-pos="4864..4867">$5,</span> <span md-src-pos="4868..4872">$10,</span> <span md-src-pos="4873..4876">and</span> <span md-src-pos="4877..4882">$25+.</span> <span md-src-pos="4883..4943">Some gift cards will have options for any denomination above</span> <span md-src-pos="4944..4947">$5.</span></p>
-   <h2 md-src-pos="4949..4985">Cryptocurrency or Cash withdrawal</h2>
-   <p md-src-pos="4987..5335"><span md-src-pos="4987..5042">Users can withdraw any amount of their rewards to their</span> <a href="https://nano.org/" md-src-pos="5043..5091">nano cryptocurrency account</a> (<span md-src-pos="5093..5136">a nano account is automatically assigned to</span> <span md-src-pos="5137..5164">their email or phone number</span>)<span md-src-pos="5165..5166">.</span> <span md-src-pos="5167..5253">The user may transfer to their own private wallet or to an Exchange account such as on</span> <a href="https://www.kraken.com/" md-src-pos="5254..5287">Kraken</a> <span md-src-pos="5288..5290">or</span> <a href="https://www.binance.us/en/home" md-src-pos="5291..5335">Binance.us</a></p>
   </div>
  </body>
 </html>
