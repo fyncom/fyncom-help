@@ -1,22 +1,18 @@
-# The FynCom Customer Experience
+# <u>_The FynCom Customer Experience_</u>
 
 ## Email Rewards (FynMail)
 
 There are 2 options for rewarding email engagement.
 
-#### Option 1 - Scalable
-
-The easiest option is to create a Marketing Email through [Sendgrid](https://sendgrid.com/) and save it as a draft. Then, once you have logged into your FynCom 
-dashboard, you assign a rewards campaign to the Sendgrid draft + send. <br>
-For this to work, you must provide your Sendgrid API key through your [FynCom settings](https://dashboard.fyncom.com/settings). This method lets you run 
+1. **Scalable Emails**
+   * The easiest option is to create a Marketing Email through [Sendgrid](https://sendgrid.com/) and save it as a draft. Then, once you have logged into your FynCom 
+    dashboard, you assign a rewards campaign to the Sendgrid draft + send. <br>
+    For this to work, you must provide your Sendgrid API key through your [FynCom settings](https://dashboard.fyncom.com/settings). This method lets you run 
 multiple rewards campaigns at the same time.
-
-#### Option 2 - Simple
-
-Designate a dedicated email address which will be only be used for FynCom marketing campaigns. Anyone who responds to an email from that address gets 
-rewarded the value of the last campaign created. This email address can be used to send conditional rewards with every email you send. <br>
+2. **Simple Emails**
+   * Designate a dedicated email address which will be only be used for FynCom marketing campaigns. Anyone who responds to an email from that address gets 
+    rewarded the value of the last campaign created. This email address can be used to send conditional rewards with every email you send. <br>
 **Note: Only 1 reward campaign can be active at a time.**
-
 
 |                                                                                      | Option 1 - Scalable                  | Option 2 - Simple                                                   |
 |:-------------------------------------------------------------------------------------|:-------------------------------------|:--------------------------------------------------------------------|
@@ -55,8 +51,9 @@ This uses a Text/Call/Text system.
 3. You can set a price per minute ($0.01 / second is a popular choice)
 4. They (user) answer the call and their timer begins ticking. The moment the phone gets disconnected, the user is sent a text message letting them know of 
 the amount they were paid for this cold call and how they can retrieve their funds.
+<br><br><br><br>
 
-## The FynCom User Experience
+# <u>_The FynCom User Experience_</u>
 
 ## Gift Card Cashout
 

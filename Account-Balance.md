@@ -2,15 +2,20 @@
 
 --------
 
-## Setting up your Alias Email (Optional)
+## Funding your accounts
 
-Set up an alias email (optional) - Note: These steps are specific to GMail, but similar processes can be used for other email providers
+FynCom makes sure your funds are moved in the most efficient way possible. You deposit funds via a credit or debit card, and we take care of the rest. <br> 
+This is why our platform is able to deliver rewards ranging from $0.0000000001 to $999. Any values larger than that require a simple form of identity verification.<br>
+Here's how to start. 
 
-1. On your GMail home page, click the **gear wheel** in the upper right to access the **setting tabs**
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-1.png)
-2. This will open up a sidebar where you can "**See all settings**". Select that option
-   ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-2.png)
-3. Once inside the Settings menu, select the "**Forwarding and POP/IMAP**" option
+1. **Add funds**
+   1. Go to your [wallet page](https://dashboard.fyncom.com/wallet) and click "Add funds" to input your information. Payments are secured by Stripe. $5 minimum.
+   ![Go to your wallet page]()
+   2. Once your funds are added, you'll see your "Available Fiat Balance" increase accordingly.
+2. **Cryptocurrency conversions are automated** 
+   1. In order to reduce your exposure to crypto assests, FynCom converts $5 of crypto at a time. The first $5 is converted when you make your first campaign. <br>
+   After that, your balance is reloaded anytime your "Available Crypto Funds" drops below $0.50. 
+3. **Refunds**Once inside the Settings menu, select the "**Forwarding and POP/IMAP**" option
    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-3.png)
 4. Once inside the "**Forwarding and POP/IMAP**" menu, select the option to "**Add a forwarding address**"
    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-4.png)
