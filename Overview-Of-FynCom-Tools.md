@@ -5,7 +5,7 @@
 1. **Send Email Rewards (a Zapier action, which should be paired with a Zapier trigger that gives an email)**
    * Get creative. Customize rewards journeys with FynCom's [Email Rewards action](https://zapier.com/apps/fyncom/integrations) on Zapier. For any Zapier trigger that has an email address, automate a FynCom reward to be sent to that email. <br>
    One of our favorite Zaps is to [reward someone for booking a Calendly meeting](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081)
-        * [Ready to wow your customers with automated rewards? Detailed instructions here.](https://www.fyncom.com/simple-email-rewards-setup).
+        * [Ready to wow your customers with automated rewards? Detailed instructions here.](https://www.fyncom.com/zapier-rewards).
 
 
 ## Email Rewards (FynMail)
@@ -22,16 +22,16 @@ There are 2 options for rewarding email engagement.
 **Note: Only 1 reward campaign can be active at a time.**
      * [Ready to start with simple emails? Detailed instructions here.](https://www.fyncom.com/simple-email-rewards-setup).
 
-|                                                                                      | Option 1 - Scalable                  | Option 2 - Simple                                                   |
-|:-------------------------------------------------------------------------------------|:-------------------------------------|:--------------------------------------------------------------------|
-|                                                                                      | Sendgrid API integration             | Use anywhere, no API needed                                         |
-| Requires you to forward incoming emails to “send@rewards.fyncom.com”?                   | Yes. (Soon, this will be automated). | Yes                                                                 |
-| Run multiple reward campaigns at same time?                                          | Yes                                  | No, only the most recenlty created Rewards Campaign will be active. |
-| People must first receive an email from you and then reply in order to get a reward? | Yes                                  | Yes                                                                 |
-| Send from any email platform?                                                        | No, only Sendgrid.                   | Yes                                                                 |
-| Use native email client on web or mobile?                                            | No                                   | Yes                                                                 |
-| Reward link clicks?                                                                  | Yes                                  | Yes                                                                 |
-| Recipient gets email notifying them of their reward?                                 | Yes                                  | Yes                                                                 |
+|                                                                                      | [Option 1 - Scalable](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery)  | [Option 2 - Simple](https://www.fyncom.com/simple-email-rewards-setup)                                               |
+|:-------------------------------------------------------------------------------------|:-------------------------|:--------------------------------------------------------------------|
+|                                                                                      | Sendgrid API integration | Use anywhere, no API needed                                         |
+| Emails must be forwarded to...                                                       | send@rewards.fyncom.com  | send@simple-rewards.fyncom.com                                      |
+| Run multiple reward campaigns at same time?                                          | Yes                      | No, only the most recenlty created Rewards Campaign will be active. |
+| People must first receive an email from you and then reply in order to get a reward? | Yes                      | Yes                                                                 |
+| Send from any email platform?                                                        | No, only Sendgrid.       | Yes                                                                 |
+| Use native email client on web or mobile?                                            | No                       | Yes                                                                 |
+| Reward link clicks?                                                                  | Yes                      | Yes                                                                 |
+| Recipient gets email notifying them of their reward?                                 | Yes                      | Yes                                                                 |
 
 
 ## Email Link Clicks
