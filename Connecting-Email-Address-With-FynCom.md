@@ -11,6 +11,10 @@ _Note 2: Any email that participate in FynCom Rewards needs to forward its incom
 [Simple emails guide](https://www.fyncom.com/simple-email-rewards-setup)_. <br>
 _Note 3: These steps are specific to Gmail, but similar processes can be used for other email providers._
 
+### Cliff Notes. _Set up an email forwarding rule to send incoming emails to send@rewards.fyncom.com_
+
+### Detailed instructions below
+
 1. On your Gmail home page, click the **gear wheel** in the upper right to access the **setting tab**.
    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-1.png) <br><br>
 2. This will open up a sidebar where you can "**See all settings**". Select that option.
@@ -22,7 +26,7 @@ _Note 3: These steps are specific to Gmail, but similar processes can be used fo
 5. This will create a pop-up where you should enter the following email address and hit next. <br>
    1. [send@rewards.fyncom.com](mailto:send@rewards.fyncom.com) <br>
       _Note: This does not start forwarding emails yet. You will need to click a confirmation link which will immediately emailed to you after completing these steps._ <br>
-      ![add the fowarding email "simple@rewards.fyncom.com"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-AddForwarding.png) <br><br>
+      ![add the fowarding email "send@rewards.fyncom.com"](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-AddForwarding.png) <br><br>
    2. A pop up dialog box will appear. Select "**Proceed**". <br>
       ![select the option to proceed forwarding emails](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/MarketingRewards-Proceed.png) <br><br>
    3. A pop up box will appear, letting you know that you will need a code from FynCom. Select "**Ok**" on the next pop-up box that appears.<br>

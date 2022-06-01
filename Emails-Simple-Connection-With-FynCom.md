@@ -14,6 +14,10 @@ email for this purpose. Recipients are still only eligible for 1 reward per camp
 [guide for marketing emails](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery)._ <br> 
 _Note 3: These steps are specific to Gmail, but similar processes can be used for other email providers._
 
+### Cliff Notes. _Set up an email forwarding rule to send incoming emails to send@simple-rewards.fyncom.com_
+
+### Detailed instructions below
+
 1. On your Gmail home page, click the **gear wheel** in the upper right to access the **setting tab**. 
    ![Go to your email settings to begin your forwarding setup](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/fycomhelp-emailh-1.png) <br><br>
 2. This will open up a sidebar where you can "**See all settings**". Select that option.
