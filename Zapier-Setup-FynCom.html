@@ -6,22 +6,22 @@
   <style>body { background-color: rgba(255, 255, 255, 255.0); font-size: 13px !important; } body, p, blockquote, ul, ol, dl, table, pre, code, tr { color: rgba(8, 8, 8, 255.0); } a { color: rgba(36, 112, 179, 255.0); } table td, table th { border: 1px solid rgba(209, 209, 209, 255.0); } hr { background-color: rgba(209, 209, 209, 255.0); } kbd, tr { border: 1px solid rgba(209, 209, 209, 255.0); } h6 { color: rgba(153, 153, 153, 255.0); } blockquote { border-left: 2px solid rgba(36, 112, 179, 0.4); } ::-webkit-scrollbar-thumb { background-color: rgba(115, 115, 115, 0.2); } blockquote, code, pre { background-color: rgba(212, 222, 231, 0.24705882352941178); }</style>
  </head> 
  <body>
-  <div md-src-pos="0..1928">
+  <div md-src-pos="0..1938">
    <h1 md-src-pos="0..33">Zapier setup for FynCom Rewards</h1>
    <hr>
    <p md-src-pos="45..375"><strong md-src-pos="45..244">The only accounts that can create FynCom rewards on Zapier are the ones you registered in the <a href="https://dashboard.fyncom.com/" md-src-pos="141..190">FynCom dashboard</a>, or invited as employees with ADMIN or WRITE roles.</strong> <br> <em md-src-pos="250..374">Note 1: This option requires that you select a Zapier "Trigger" that provides an email of a person whom you wish to reward</em><span md-src-pos="374..375">.</span></p>
-   <h2 md-src-pos="377..410">Setting up your Zapier API Key</h2>
-   <ol md-src-pos="412..1380">
-    <li md-src-pos="412..784">Navigate to your settings page in the <a href="https://dashboard.fyncom.com/settings" md-src-pos="453..510">FynCom dashboard</a> and click <strong md-src-pos="521..536">Integration</strong>. On the Integration page, click "<strong md-src-pos="573..600">Generate Zapier API Key</strong>". <img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Zapier-Generate-FynCom-API-Key.png" alt="Go to Integrations in your FynCom settings to get your Zapier API Key" __idea-generated="true" md-src-pos="607..775"> <br><br></li>
-    <li md-src-pos="785..1049">This will create your Zapier API Key. Click the eye to show your Zapier API Key and copy it.<strong md-src-pos="880..889">*</strong> <img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Zapier-Copy-FynCom-API-Key.png" alt="An image showing the location of your Zapier API Key" __idea-generated="true" md-src-pos="893..1040"> <br><br></li>
-    <li md-src-pos="1050..1380">Now, you are ready to create your Zap! Go to <a href="https://zapier.com/apps/fyncom/integrations" md-src-pos="1098..1165">FynCom's Zapier page</a> and choose the app you want to pair FynCom with.
-     <ul md-src-pos="1218..1380">
-      <li md-src-pos="1218..1380">For example, try the <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" md-src-pos="1241..1332">Calendly / FynCom Zap</a> to reward people for booking meetings with you.</li>
+   <h3 md-src-pos="377..437">Gif of the process of getting your FynCom key for Zapier</h3>
+   <p md-src-pos="439..598"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/zapier-fyncom-gif.gif" alt="Go to Integrations in your FynCom settings to get your Zapier API Key" __idea-generated="true" md-src-pos="439..589"> <br><br></p>
+   <h2 md-src-pos="600..633">Setting up your Zapier API Key</h2>
+   <ol md-src-pos="635..1603">
+    <li md-src-pos="635..1007">Navigate to your settings page in the <a href="https://dashboard.fyncom.com/settings" md-src-pos="676..733">FynCom dashboard</a> and click <strong md-src-pos="744..759">Integration</strong>. On the Integration page, click "<strong md-src-pos="796..823">Generate Zapier API Key</strong>". <img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Zapier-Generate-FynCom-API-Key.png" alt="Go to Integrations in your FynCom settings to get your Zapier API Key" __idea-generated="true" md-src-pos="830..998"> <br><br></li>
+    <li md-src-pos="1008..1272">This will create your Zapier API Key. Click the eye to show your Zapier API Key and copy it.<strong md-src-pos="1103..1112">*</strong> <img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Zapier-Copy-FynCom-API-Key.png" alt="An image showing the location of your Zapier API Key" __idea-generated="true" md-src-pos="1116..1263"> <br><br></li>
+    <li md-src-pos="1273..1603">Now, you are ready to create your Zap! Go to <a href="https://zapier.com/apps/fyncom/integrations" md-src-pos="1321..1388">FynCom's Zapier page</a> and choose the app you want to pair FynCom with.
+     <ul md-src-pos="1441..1603">
+      <li md-src-pos="1441..1603">For example, try the <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" md-src-pos="1464..1555">Calendly / FynCom Zap</a> to reward people for booking meetings with you.</li>
      </ul></li>
    </ol>
-   <p md-src-pos="1382..1715"><strong md-src-pos="1382..1391">*</strong> <span md-src-pos="1392..1446">DO NOT share this API Key with anyone you do not know.</span> <span md-src-pos="1447..1511">Anyone with this Zapier API key can send rewards on your behalf.</span> <span md-src-pos="1512..1534">Each email within your</span> <span md-src-pos="1536..1575">organization will have its own API key.</span> <span md-src-pos="1576..1628">As long as your email has ADMIN or WRITE permission,</span> <span md-src-pos="1629..1683">this Zapier API key will permit you to spend from your</span> <span md-src-pos="1685..1697">organization</span>'<span md-src-pos="1698..1715">s crypto balance.</span></p>
-   <h3 md-src-pos="1717..1766">Gif of the process of getting your FynCom key</h3>
-   <p md-src-pos="1768..1927"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/zapier-fyncom-gif.gif" alt="Go to Integrations in your FynCom settings to get your Zapier API Key" __idea-generated="true" md-src-pos="1768..1918"> <br><br></p>
+   <p md-src-pos="1605..1937"><strong md-src-pos="1605..1614">*</strong> <span md-src-pos="1615..1669">DO NOT share this API Key with anyone you do not know.</span> <span md-src-pos="1670..1734">Anyone with this Zapier API key can send rewards on your behalf.</span> <span md-src-pos="1735..1757">Each email within your</span> <span md-src-pos="1759..1798">organization will have its own API key.</span> <span md-src-pos="1799..1851">As long as your email has ADMIN or WRITE permission,</span> <span md-src-pos="1852..1919">this Zapier API key will permit you to spend from your organization</span>'<span md-src-pos="1920..1937">s crypto balance.</span></p>
   </div>
  </body>
 </html>

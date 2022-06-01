@@ -6,6 +6,10 @@
 invited as employees with ADMIN or WRITE roles.** <br>
 _Note 1: This option requires that you select a Zapier "Trigger" that provides an email of a person whom you wish to reward_.
 
+### Gif of the process of getting your FynCom key for Zapier
+
+![Go to Integrations in your FynCom settings to get your Zapier API Key](https://fyncom-static-files.s3.us-west-1.amazonaws.com/zapier-fyncom-gif.gif) <br><br>
+
 ## Setting up your Zapier API Key
 
 1. Navigate to your settings page in the [FynCom dashboard](https://dashboard.fyncom.com/settings) and click **Integration**. On the Integration page, click
@@ -17,9 +21,4 @@ _Note 1: This option requires that you select a Zapier "Trigger" that provides a
    - For example, try the [Calendly / FynCom Zap](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081) to reward people for booking meetings with you.
 
 **&ast;** DO NOT share this API Key with anyone you do not know. Anyone with this Zapier API key can send rewards on your behalf. Each email within your 
-organization will have its own API key. As long as your email has ADMIN or WRITE permission, this Zapier API key will permit you to spend from your 
-organization's crypto balance.
-
-### Gif of the process of getting your FynCom key
-
-![Go to Integrations in your FynCom settings to get your Zapier API Key](https://fyncom-static-files.s3.us-west-1.amazonaws.com/zapier-fyncom-gif.gif) <br><br>
+organization will have its own API key. As long as your email has ADMIN or WRITE permission, this Zapier API key will permit you to spend from your organization's crypto balance.

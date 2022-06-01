@@ -2,10 +2,14 @@
 
 ## Zapier Rewards
 
-1. **Send Email Rewards (a Zapier action, which should be paired with a Zapier trigger that gives an email)**
-   * Get creative. Customize rewards journeys with FynCom's [Email Rewards action](https://zapier.com/apps/fyncom/integrations) on Zapier. For any Zapier trigger that has an email address, automate a FynCom reward to be sent to that email. <br>
-   One of our favorite Zaps is to [reward someone for booking a Calendly meeting](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081)
-        * [Ready to wow your customers with automated rewards? Detailed instructions here.](https://www.fyncom.com/zapier-rewards).
+1. **Send Email Rewards (This is the name of FynCom's Zapier action, which should be paired with a Zapier trigger that gives an email)**
+   * Get creative. Customize rewards journeys with FynCom's [Send Email Rewards](https://zapier.com/apps/fyncom/integrations) action on Zapier. For any Zapier trigger that has an email address, automate a FynCom reward to be sent to that email. <br>
+   Some of our favorite Zaps are.... 
+        * [Calendly rewards - Reward someone for booking a meeting.](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081)
+        * [Google form rewards - Reward someone for completing a Google form.](https://zapier.com/shared/6ec3d6005364fc5735a80342fbc878376556d22f)
+        * [Typeform rewards - Reward someone for completing a Typeform.](https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841)
+
+[Ready to wow your customers with automated rewards? Detailed instructions here.](https://www.fyncom.com/zapier-rewards).
 
 
 ## Email Rewards (FynMail)
