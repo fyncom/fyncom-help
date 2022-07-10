@@ -1,4 +1,6 @@
 # <u>_The FynCom Customer Experience_</u>
+Customer should use [dashboard.fyncom.com](https://dashboard.fyncom.com) to create Rewards Campaigns and manage their accounts.
+
 
 ## Zapier Rewards
 
@@ -67,13 +69,32 @@ the amount they were paid for this cold call and how they can retrieve their fun
 <br><br>
 
 # <u>_The FynCom User Experience_</u>
+Users should use [app.fyncom.com](https://app.fyncom.com) to use their FynCom Rewards and manage their accounts. FynCom uses [nano](https://nano.org/) 
+for its "FynCom Rewards". Values are shown as US Dollars.
 
 ## Gift Card Cashout
 
-Users can log in to their app ([app.fyncom.com](https://app.fyncom.com/)) to select the gift card of choice. Once they have $5 worth of rewards, 
-they can cash out. Gift card denominations are typically $5, $10, and $25+. Some gift cards will have options for any denomination above $5.
+Users can log in to the app and purchase the [gift card they want with their FynCom Rewards](https://app.fyncom.com/gift). Once they have $5 worth of rewards, 
+they can purchase gift cards. Gift card denominations are typically $5, $10, and $25+. Some gift cards will have options for any denomination above $5.
 
 ## Cryptocurrency or Cash withdrawal
 
-Users can withdraw any amount of their rewards to their [nano cryptocurrency account](https://nano.org/) (a nano account is automatically assigned to
-their email or phone number). The user may transfer to their own private wallet or to an Exchange account such as on [Kraken](https://www.kraken.com/) or [Binance.us](https://www.binance.us/en/home)
+Users can **withdraw any amount of their FynCom rewards** to keep as nano in their own digital wallets or convert to local cash currency 
+through a cryptocurrency exchange platform. <br> _Note: when transferring nano currency between nano accounts, "Withdraw", "Transfer", and "Send" can mean the same thing._
+1. **Keep as nano**. _0 fees for withdrawing nano. No minimum limit to withdraw._
+    * A [nano account](https://nano.org/) is automatically assigned to the user's email or phone number when they respond to a FynCom-enabled message. 
+    * Users may [withdraw from their FynCom nano wallet](https://app.fyncom.com/wallet) to their own nano wallets. There are 
+      several [mobile and desktop wallets available here](https://hub.nano.org/wallets). We highly recommend Natrium for mobile, Nault for desktop, and a 
+      [nano ledger](https://www.ledger.com/) for long-term cold storage.<br>
+2. **Convert nano to cash**. _You must withdraw your nano to an exchange, exchanges will have their own fees and withdrawal minimums_.
+    * Users must create a cryptocurrency exchange account. Here are the [exchanges that convert nano to US Dollars](https://hub.nano.org/trading/allows-withdrawals/99/us-dollar-usd/61).
+      We highly recommend Kraken for our US friends.
+      * Use the "Currencies" tab to see which exchanges work in your country. For example, [Euros](https://hub.nano.org/trading/allows-withdrawals/99/euro-eur/103), 
+       [Rupees](https://hub.nano.org/trading/allows-withdrawals/99/indian-rupee-inr/120), and [Pesos](https://hub.nano.org/trading/allows-withdrawals/99/mexican-peso-mxn/116).
+    * Once you create your exchange account, your exchange will provide you with a nano account that you can use for deposits. You may transfer nano directly 
+      from FynCom to your exchange nano's account. However, we recommend that you make 2 transfers since nano transfers have 0-fees and are instantly received.
+        * **2 Transfers. Best for people who want to learn about the future of digital currency.** 
+          * Transfer 1: [Send nano from FynCom](https://app.fyncom.com/wallet) to your own nano wallet (see #1 above)
+          * Transfer 2: Transfer nano from your nano wallet to your exchange's nano account
+        * **1 Transfer. Best for people who just want to keep things simple**
+            * Transfer 1: [Send nano from FynCom](https://app.fyncom.com/wallet) to your exchange's nano account.
