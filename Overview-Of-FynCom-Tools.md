@@ -4,12 +4,12 @@
 
 1. **Send Email Rewards (This is the name of FynCom's Zapier action, which should be paired with a Zapier trigger that gives an email)**
    * Get creative. Customize rewards journeys with FynCom's [Send Email Rewards](https://zapier.com/apps/fyncom/integrations) action on Zapier. For any Zapier trigger that has an email address, automate a FynCom reward to be sent to that email. <br>
-   Some of our favorite Zaps are.... 
+   Some of our favorite Zaps are listed below.
         * [Calendly rewards - Reward someone for booking a meeting.](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081)
         * [Google form rewards - Reward someone for completing a Google form.](https://zapier.com/shared/6ec3d6005364fc5735a80342fbc878376556d22f)
         * [Typeform rewards - Reward someone for completing a Typeform.](https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841)
 
-[Ready to wow your customers with automated rewards? Detailed instructions here.](https://www.fyncom.com/zapier-rewards).
+[Ready to wow your customers with automated rewards? Detailed instructions here](https://www.fyncom.com/zapier-rewards).
 
 
 ## Email Rewards (FynMail)
@@ -19,12 +19,12 @@ There are 2 options for rewarding email engagement.
 1. **Scalable Emails**
    * The easiest option is to create a Marketing Email through [Sendgrid](https://sendgrid.com/) and save it as a draft. Then, once you have logged into your FynCom dashboard, you assign a rewards campaign to the Sendgrid draft + send. <br>
     For this to work, you must provide your Sendgrid API key through your [FynCom settings](https://dashboard.fyncom.com/settings). This method lets you run multiple rewards campaigns at the same time. 
-     * [Ready to set up scalable emails? Get started here.](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery).
+     * [Ready to set up scalable emails? Get started here](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery).
 2. **Simple Emails**
    * Designate a dedicated email address which will be only be used for FynCom marketing campaigns. Anyone who responds to an email from that address gets 
     rewarded the value of the last campaign created. This email address can be used to send conditional rewards with every email you send. <br>
 **Note: Only 1 reward campaign can be active at a time.**
-     * [Ready to start with simple emails? Detailed instructions here.](https://www.fyncom.com/simple-email-rewards-setup).
+     * [Ready to start with simple emails? Detailed instructions here](https://www.fyncom.com/simple-email-rewards-setup).
 
 |                                                                                      | [Option 1 - Scalable](https://www.fyncom.com/email-forwarding-setup-for-instant-rewards-delivery)  | [Option 2 - Simple](https://www.fyncom.com/simple-email-rewards-setup)                                               |
 |:-------------------------------------------------------------------------------------|:-------------------------|:--------------------------------------------------------------------|
