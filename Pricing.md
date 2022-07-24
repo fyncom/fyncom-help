@@ -1,11 +1,30 @@
 # Pricing table
 
-Export as HTML and then modify html to use colspan in last 2 rows
+Export as HTML and then modify html to use `colspan="3"` in the `<td>` of last 2 rows
+```
+<td colspan="3" align="center" md-src-pos="680..730">Zapier, Sendgrid, SlickText &amp; FynCom API Key</td>
+<td colspan="3" align="center" md-src-pos="755..805">Sales (Simple), Marketing, Basic</td>
+```
 
-|  Number of users   | 3       | 10    |   No limit  |
-|:-------------------|:-------|:-------|:------------|
-| Minimum Reward ($)  | 0.002 | 0.0001 | Unlimited   |
-| Commission          | 15    | 10     | 5    |
-| Support             | Good  | Better | Best |
-| Integrations | Sendgrid, Zapier, & FynCom API Key| | |
-| Email products    | Sales (Simple), Marketing    | | |
+|  Number of users    |                        3                         |    10 |  No limit |
+|:-------------------:|:------------------------------------------------:|:---:|:---------:|
+| Rewards Transactions|                      10,000                      | 100,000 | Unlimited |
+| Rewards Campaigns   |                        3                         |Unlimited | Unlimited |
+| Commission          |                        15                        |    10 |      5    |
+| Support Speed (Hrs) |                        72                        |    48 |     12    |
+| Integrations        |   Zapier, Sendgrid, SlickText & FynCom API Key   |
+| Email Products      |         Sales (Simple), Marketing, Basic         |
+
+
+**Pricing** <br> 
+The full value of your monthly subscription is usable for Rewards. Any remaining balance does not roll over at the end of the month.
+_You may top up your account funds over your monthly price at any point. Those funds stay in your FynCom account and DO roll over on a month per month basis._
+
+**Rewards Transactions** <br>
+Number of rewards you can send in a month
+
+**Rewards Campaigns** <br>
+Number of active rewards campaign per month
+
+**Commission %** <br>
+The commission paid to FynCom per reward
