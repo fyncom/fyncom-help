@@ -11,11 +11,6 @@ Redirecting the window requires controlling the parent. Use `onclick="window.par
 <td align="center" md-src-pos="6795..6991"><button name="button" onclick="window.parent.location.href='https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1';">Get Standard</button></td>
 ```
 
-Table borders, put this in td
-```
-border:none;
-```
-
 <style>
  th {
      border-right:hidden!important;
@@ -23,7 +18,7 @@ border:none;
      border-top:hidden!important;
  }
  tr {
-  border-left:3px solid black;
+    border-left:5px gray;
  }
 </style>
 
