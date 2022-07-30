@@ -54,6 +54,6 @@ The commission paid to FynCom per reward. If a response is received for a reward
      border-top:hidden!important;
  }
  tr {
-    border-left:5px gray;
+    border-left:3px solid black;
  }
 </style>
