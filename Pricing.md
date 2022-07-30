@@ -6,12 +6,15 @@ Export as HTML and then modify html to use `colspan="3"` in the `<td>` of last 2
 <td colspan="3" align="center" md-src-pos="755..805">Sales (Simple), Marketing, Basic</td>
 ```
 
-Redirecting the window requires controlling the parent. Use `onclick="window.parent.location.href='link';"` to send to new page. Nothing else works except this.
+~~Redirecting the window requires controlling the parent. Use `onclick="window.parent.location.href='link';"` to send to new page. Nothing else works except this.~~
+Redirecting the window requires controlling the parent. Use `onclick="window.open('url'), 'target=_blank', 'rel=noopener noreferrer';"` to send to new tab. <br>
+You will also want to update the Zapier href links with this (see Integrations row) `target="=_blank", rel="noopener noreferrer"`
+
 
 ```
-<td align="center" md-src-pos="6581..6794"><button name="button" onclick="window.parent.location.href='https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1';">Get Basic</button></td>
-<td align="center" md-src-pos="6795..6991"><button name="button" onclick="window.parent.location.href='https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1';">Get Standard</button></td>
-<td align="center" md-src-pos="6992..7188"><button name="button" onclick="window.parent.location.href='https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;subscription_items[quantity][0]=1';">Get Premium</button></td>
+<td align="center" md-src-pos="6581..6794"><button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Basic</button></td>
+<td align="center" md-src-pos="6795..6991"><button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Standard</button></td>
+<td align="center" md-src-pos="6992..7188"><button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Premium</button></td>
 ```
 
 
