@@ -19,9 +19,7 @@ You will also want to update the Zapier href links with this (see Integrations r
 
 
 # Pricing
-The full value of your monthly subscription is usable for Rewards. Any remaining balance does not roll over at the end of the month. <br>
-_If you send out more rewards than your monthly subscription (example, you have a $100 subscription and want to send $110), you may add funds to your account
-in the wallet page at any point. Those excess funds stay in your FynCom account and will roll over on a month-to-month basis._
+The full value of your monthly subscription is usable for Rewards. Any remaining balance does not roll over at the end of the month. <br> Free 30 day trial period.
 
 | ![Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Graphic+A1.png) |                                                                                                  ![Basic Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Basic+A2.png)                                                                                                   |                                             ![Standard Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Standard+A3.png)                                              |                                             ![Premium Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Premium+A4.png)                                              |
 |:-------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -30,7 +28,7 @@ in the wallet page at any point. Those excess funds stay in your FynCom account 
 |                                   Rewards Campaigns<sup>2</sup>                                   |                                                                                                                                                    3                                                                                                                                                     |                                                                                              Unlimited                                                                                               |                                                                                             Unlimited                                                                                              |
 |                                    Commission (%)<sup>3</sup>                                     |                                                                                                                                                    15                                                                                                                                                    |                                                                                                  10                                                                                                  |                                                                                                 5                                                                                                  |
 |                                        Support Speed (Hrs)                                        |                                                                                                                                                    72                                                                                                                                                    |                                                                                                  48                                                                                                  |                                                                                                 12                                                                                                 |
-|                                           Integrations                                            | Zapier ([Google Forms](https://zapier.com/shared/6ec3d6005364fc5735a80342fbc878376556d22f), [Calendly](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081), [Typeform](https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841) & more), Sendgrid, SlickText & FynCom API Key |
+|                                           Integrations (Surveys & More)                                          | Zapier ([Google Forms](https://zapier.com/shared/6ec3d6005364fc5735a80342fbc878376556d22f), [Calendly](https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081), [Typeform](https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841) & more), Sendgrid, SlickText & FynCom API Key |
 |                                          Email Products                                           |                                                                                                                                     Sales (Simple), Marketing, Basic                                                                                                                                     |
 |                                            API Access                                             |                                                                                                                                    &#x2717;                                                                                                                               | &#10004;| &#10004;|
 |                                           Custom Builds                                           |                                                                                                                                                   &#x2717;                                                                                                                                                  |&#x2717;|                                                                                        &#10004;                                                                                   |
@@ -44,35 +42,42 @@ Number of rewards you can send in a month.
 Number of active rewards campaigns per month. You can make as many rewards campaigns as you like, but only 3 will be active.
 
 **Commission**<sup>3</sup> <br>
-The commission paid to FynCom per reward. If a response is received for a reward is $1.00, then $1.05 to $1.15 is charged, based on your plan.
+The commission paid to FynCom per reward. If a response is received for a reward offer of $1.00, then $1.05 to $1.15 is charged, based on your plan. The recipient receives the full $1.00 and is not charged any fees to withdraw their funds or purchase gift cards.
+
+_*If you send out more rewards than your monthly subscription (example, you have a $100 subscription and want to send $110), you may add funds to your account
+in the wallet page at any point. Those excess funds stay in your FynCom account and will roll over on a month-to-month basis._
 
 [//]: # Note, you wll have to add this yourself into the HTML. Markdown to HTML converter does not do this for you.()
 <style>
- th {
-     border-right:hidden!important;
-     border-left:hidden!important;
-     border-top:hidden!important;
- }
- tr {
-    border-left:3px solid black;
- }
-    table td {
-        font-size: 22px;
-    }
-    table td:first-child {
-        font-size: 28px;
-        font-weight: bold;
-    }
-    button {
-        font-size: 24px;
-    }
-    p {
-        font-size: 20px;
-    }
-    strong {
-        font-size: 28px;
-    }
-    h1 {
-        font-size: 36px;
-    }
+        th {
+            border-right:hidden!important;
+            border-left:hidden!important;
+            border-top:hidden!important;
+            width: 23%;
+        }
+        th:first-child {
+            width: 31%;
+        }
+        tr {
+            border-left:3px solid black;
+        }
+        table td:first-child {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        table td {
+            font-size: 24px;
+        }
+        button {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+        strong {
+            font-size: 26px;
+        }
+        h1 {
+            font-size: 36px;
+        }
 </style>
