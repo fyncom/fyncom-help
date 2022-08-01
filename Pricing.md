@@ -41,7 +41,7 @@ in the wallet page at any point. Those excess funds stay in your FynCom account 
 Number of rewards you can send in a month.
 
 **Rewards Campaigns**<sup>2</sup> <br>
-Number of active rewards campaign per month.
+Number of active rewards campaigns per month. You can make as many rewards campaigns as you like, but only 3 will be active.
 
 **Commission**<sup>3</sup> <br>
 The commission paid to FynCom per reward. If a response is received for a reward is $1.00, then $1.05 to $1.15 is charged, based on your plan.
@@ -56,4 +56,23 @@ The commission paid to FynCom per reward. If a response is received for a reward
  tr {
     border-left:3px solid black;
  }
+    table td {
+        font-size: 22px;
+    }
+    table td:first-child {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    button {
+        font-size: 24px;
+    }
+    p {
+        font-size: 20px;
+    }
+    strong {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 36px;
+    }
 </style>
