@@ -9,13 +9,20 @@ Currently, 75% of the reward value goes to the translator and 25% of the word va
 who are listed below - otherwise your translation will not be eligible for a reward. The person who translates a word gets 75% of the reward, the person who 
 approves the translation gets 25% of the reward. Rewards are distributed immediately upon approval of translation_.
 
-Our goal is to help you to get your translations completed as quickly as possible. Our product, FynCom Rewards, makes automated micropayments to your translators on a per-word basis. Right now, you can test the simplest version of our product. One single Reward value for every suggested translation that gets approved. </br>
-Create a single Rewards Campaign and upload the URL of the file/language you want to trial. If you want to multiple languages for a single file or project - please send those URLs to us by email. For now, just try a single file and see if it works for you. </br> 
-Rewards can be as low as $0.0000000000000000000000001 per word if you wish. Typically, we see companies rewarding values like $0.005, but it depends on your budget and how much you value your translations. </br>
-To Here are some features we have planned for the future
-* Create Reward of different values per Source Language -> Target Language
-* Create different Rewards Per File
-* 
+Our goal is to help you to get your translations completed as quickly as possible. Our product makes automated micropayments to your translators on a per-word basis. It also rewards your approvers. Right now, you can test the simplest version of our product. One single reward value for every suggested translation that gets approved. 75% goes to the translator who made the suggestion. 25% goes to the reviewer who approved the suggestion. </br> 
+Rewards can be as low as $0.0000000000000000000000001 per word if you wish. Typically, we see companies rewarding values like $0.005 per word, but it depends on your budget and how much you value your translations. </br>
+Here are some features we have planned for the future and think you might like. However, we want to hear what features you would like and how we can best serve your needs. Just send us an email at suppport+crowdin@fyncom.com to let us know what your goals are.
+* Create Rewards of different values for each "Source Language -> Target Language" in a specific file
+* Create Reward value "A" for file #1 and Reward Value "B" for file #2 & run both campaigns at the same time.
+* Multiple Rewards for multiple files/projects/languages
+  * This might create too much overhead for you. We think that having a single reward for all your translations might be best to start. You can always change the value of the single reward as often as you want by creating a new Rewards Campaign.
+
+A simple overview is below. Detailed instructions are at the bottom. 
+* You must <a href="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&subscription_items[quantity][0]=1" target="_blank">[create a FynCom Customer account]</a> to fund the micropayments and set reward values + input the Crowdin file to reward.
+   * Create a single Rewards Campaign and upload the URL of the file/language you want to trial. If you want to multiple languages for a single file or project - please send those URLs to us by email. For now, just try a single file and see if it works for you. </br> 
+
+* Your translators must create a <a href="https://www.fyncom.com/crowdin-rewards-for-translations-user-setup" target="_blank">[FynCom User account]</a> and input their Crowdin username to receive their rewards.</br>
+
 
 ## Setting up your FynCom subscription
 
