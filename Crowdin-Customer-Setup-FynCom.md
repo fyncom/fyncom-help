@@ -39,7 +39,7 @@ A simple overview of how to start is below. Detailed instructions are at the bot
    ![Setup your webhook in Crowdin to send events to https://server.fyncom.com/v2/webhooks/crowdin](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Crowdin-WebhookUpdate.png)
 5. Open your file in editor view. Select the language you want and copy the URL.
    * Paste the URL into an email and send it to us at suppport+crowdin@fyncom.com. Later, we will add a page into the settings of your FynCom dashboard or even in Crowdin itself, where you can paste this URL. Please bear with us as we build this out for you. Thank you!
-   ![Setup your Crowdin Rewards Campaign at dashboard.fyncom.com in the Campaign create section](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Crowdin-CopyUrlFromEditor.png)
+   ![Copy the file URL from the editor page of the file you want to reward and send it to us by email](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Crowdin-CopyUrlFromEditor.png)
 
 # Getting your translators activated
 
