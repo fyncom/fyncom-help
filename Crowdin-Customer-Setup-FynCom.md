@@ -21,18 +21,17 @@ Rewards can be as low as $0.0000000000000000000000001 per word if you wish. Typi
 A simple overview of how to start is below. Detailed instructions are at the bottom.
 
 * You must <a href="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&subscription_items[quantity][0]=1" target="_blank">[create a FynCom Customer account]</a> to fund the micropayments and set reward values + input the Crowdin file to reward.
-  * Create a single Rewards Campaign and upload the URL of the file/language you want to trial. **If you want to try multiple languages and/or a set of files - please send those URLs to us by email**. For now, just try a single file and see if it works for you. </br>
-* Your translators and approvers must create a <a href="https://www.fyncom.com/crowdin-rewards-for-translations-user-setup" target="_blank">[FynCom User account]</a> and input their Crowdin username to receive their rewards.</br>
+  * Create a single Rewards Campaign and upload the URL of the file/language you want to trial. **If you want to try multiple languages and/or a set of files - please send those URLs to us by email**. For now, just try a single file and see if it works for you.
+* Your translators and approvers must create a <a href="https://www.fyncom.com/crowdin-rewards-for-translations-user-setup" target="_blank">[FynCom User account]</a> and input their Crowdin username to receive their rewards.
 
 # Detailed overview: Setting up your FynCom Subscription
 
-1. Create a <a href="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&subscription_items[quantity][0]=1" target="_blank">[FynCom Subscription]</a>. $20/month is the starting plan.<br>
+1. Create a <a href="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&subscription_items[quantity][0]=1" target="_blank">[FynCom Subscription]</a>. $20/month is the starting plan.
 2. <a href="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&subscription_items[quantity][0]=1" target="_blank">[Add funds to your account in the Wallet page]</a>.
 3. <a href="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&subscription_items[quantity][0]=1" target="_blank">[Create a Rewards Campaign]</a> and **include "Crowdin" as part of your campaign name**. Rewards are denominated in $ USD.
    * The example screenshot below is meant to to be used for a single campaign that specifically rewards transaltions from Estonian to Esperanto for a specfiic project (home page).
       * _Please note: your first campaign will be "prefilled". Create your 1st prefilled campaign, then you can edit the fields and and create your 2nd campaign which has your actual Rewards Campaigns details._
       ![Setup your Crowdin Rewards Campaign at dashboard.fyncom.com in the Campaign create section](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/Crowdin-CreateRewardsCampaign.png)
-
 4. Update your Webhook in your Crowdin settings page to post data to this URL. See the image below for the exact configuration.
    * <https://server.fyncom.com/v2/webhooks/crowdin>
       * Ensure that these events are sent: _SUGGESTIONS_ADDED, SUGGESTION_APPROVED, FILE_TRANSLATED, FILE_APPROVED, PROJECT_TRANSLATED, PROUECT_APPROVED, TRANSLATION_UPDATED, SUGGESTION_UPDATED, SUGGESTION_DELETED, SUGGESTION_DISAPPROVED_
