@@ -13,8 +13,8 @@ Our goal is to help you to get your translations completed as quickly as possibl
 Rewards can be as low as $0.0000000000000000000000001 per word if you wish. Typically, we see companies rewarding values like $0.005 per word, but it depends on your budget and how much you value your translations. </br>
 Here are some features we have planned for the future and think you might like. However, we want to hear what features you would like and how we can best serve your needs. Just send us an email at suppport+crowdin@fyncom.com to let us know what your goals are.
 * Create Rewards of different values for each "Source Language -> Target Language" in a specific file
-* Create Reward value "A" for file #1 and Reward Value "B" for file #2 & run both campaigns at the same time.
-* Multiple Rewards for multiple files/projects/languages
+* A/B test different Reward values for multiple files at the same time.
+* A/B test different Rewards for multiple files/projects/languages at the same time.
   * This might create too much overhead for you. We think that having a single reward for all your translations might be best to start. You can always change the value of the single reward as often as you want by creating a new Rewards Campaign.
 
 A simple overview is below. Detailed instructions are at the bottom. 
