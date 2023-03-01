@@ -8,27 +8,9 @@
   <style>/* Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .run-icon &gt; img { max-width: 1em; vertical-align: text-top; margin-right: 0.3em; } .code-block { position: absolute; left: 1em; } .hidden { display: none; }</style>
  </head>
  <body>
-  <div md-src-pos="0..15917">
-   <p md-src-pos="0..153"><span md-src-pos="0..6">#Notes</span> <span md-src-pos="7..8">-</span> <span md-src-pos="9..25">Convert to HTML,</span> <span md-src-pos="26..67">then delete everything before style tags.</span> <span md-src-pos="68..110">Export as HTML and then modify html to use</span> <code md-src-pos="111..124">colspan="3"</code> <span md-src-pos="125..131">in the</span> <code md-src-pos="132..138">&lt;td&gt;</code> <span md-src-pos="139..153">of last 2 rows</span></p>
-   <pre class="code-fence" md-src-pos="155..360">
-    <div class="code-fence-highlighter-copy-button" data-fence-content="PHRkIGNvbHNwYW49IjMiIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY4MC4uNzMwIj5aYXBpZXIsIFNlbmRncmlkLCBTbGlja1RleHQgJmFtcDsgRnluQ29tIEFQSSBLZXk8L3RkPgo8dGQgY29sc3Bhbj0iMyIgYWxpZ249ImNlbnRlciIgbWQtc3JjLXBvcz0iNzU1Li44MDUiPlNhbGVzIChTaW1wbGUpLCBNYXJrZXRpbmcsIEJhc2ljPC90ZD4=">
-  <img class="code-fence-highlighter-copy-button-icon">
-
-    </div><code md-src-pos="155..360"><span md-src-pos="155..159"></span><span md-src-pos="159..311">&lt;td colspan="3" align="center" md-src-pos="680..730"&gt;Zapier, Sendgrid, SlickText &amp;amp; FynCom API Key&lt;/td&gt;</span>
-<span md-src-pos="312..444">&lt;td colspan="3" align="center" md-src-pos="755..805"&gt;Sales (Simple), Marketing, Basic&lt;/td&gt;</span>
-<span md-src-pos="445..445"></span><span md-src-pos="357..360"></span></code></pre>
-   <p md-src-pos="362..817"><span class="user-del" md-src-pos="362..526">Redirecting the window requires controlling the parent. Use <code md-src-pos="424..471">onclick="window.parent.location.href='link';"</code> to send to new page. Nothing else works except this.</span> <span md-src-pos="527..582">Redirecting the window requires controlling the parent.</span> <span md-src-pos="583..586">Use</span> <code md-src-pos="587..662">onclick="window.open('url'), 'target=_blank', 'rel=noopener noreferrer';"</code> <span md-src-pos="663..682">to send to new tab.</span> <br> <span md-src-pos="688..748">You will also want to update the Zapier href links with this</span> (<span md-src-pos="750..770">see Integrations row</span>) <code md-src-pos="772..817">target="=_blank", rel="noopener noreferrer"</code></p>
-   <pre class="code-fence" md-src-pos="820..1746">
-    <div class="code-fence-highlighter-copy-button" data-fence-content="PHRkIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY1ODEuLjY3OTQiPjxidXR0b24gbmFtZT0iYnV0dG9uIiBvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9meW5jb20uY2hhcmdlYmVlLmNvbS9ob3N0ZWRfcGFnZXMvY2hlY2tvdXQ/c3Vic2NyaXB0aW9uX2l0ZW1zW2l0ZW1fcHJpY2VfaWRdWzBdPWJhc2ljLVVTRC1Nb250aGx5JmFtcDtzdWJzY3JpcHRpb25faXRlbXNbcXVhbnRpdHldWzBdPTEnKSwgJ3RhcmdldD1fYmxhbmsnLCAncmVsPW5vb3BlbmVyIG5vcmVmZXJyZXInOyI+R2V0IEJhc2ljPC9idXR0b24+PC90ZD4KPHRkIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY3OTUuLjY5OTEiPjxidXR0b24gbmFtZT0iYnV0dG9uIiBvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9meW5jb20uY2hhcmdlYmVlLmNvbS9ob3N0ZWRfcGFnZXMvY2hlY2tvdXQ/c3Vic2NyaXB0aW9uX2l0ZW1zW2l0ZW1fcHJpY2VfaWRdWzBdPXN0YW5kYXJkLVVTRC1Nb250aGx5JmFtcDtzdWJzY3JpcHRpb25faXRlbXNbcXVhbnRpdHldWzBdPTEnKSwgJ3RhcmdldD1fYmxhbmsnLCAncmVsPW5vb3BlbmVyIG5vcmVmZXJyZXInOyI+R2V0IFN0YW5kYXJkPC9idXR0b24+PC90ZD4KPHRkIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY5OTIuLjcxODgiPjxidXR0b24gbmFtZT0iYnV0dG9uIiBvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9meW5jb20uY2hhcmdlYmVlLmNvbS9ob3N0ZWRfcGFnZXMvY2hlY2tvdXQ/c3Vic2NyaXB0aW9uX2l0ZW1zW2l0ZW1fcHJpY2VfaWRdWzBdPXByZW1pdW0tVVNELU1vbnRobHkmYW1wO3N1YnNjcmlwdGlvbl9pdGVtc1txdWFudGl0eV1bMF09MScpLCAndGFyZ2V0PV9ibGFuaycsICdyZWw9bm9vcGVuZXIgbm9yZWZlcnJlcic7Ij5HZXQgUHJlbWl1bTwvYnV0dG9uPjwvdGQ+">
-  <img class="code-fence-highlighter-copy-button-icon">
-
-    </div><code md-src-pos="820..1746"><span md-src-pos="820..824"></span><span md-src-pos="824..1194">&lt;td align="center" md-src-pos="6581..6794"&gt;&lt;button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"&gt;Get Basic&lt;/button&gt;&lt;/td&gt;</span>
-<span md-src-pos="1195..1571">&lt;td align="center" md-src-pos="6795..6991"&gt;&lt;button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"&gt;Get Standard&lt;/button&gt;&lt;/td&gt;</span>
-<span md-src-pos="1572..1946">&lt;td align="center" md-src-pos="6992..7188"&gt;&lt;button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"&gt;Get Premium&lt;/button&gt;&lt;/td&gt;</span>
-<span md-src-pos="1947..1947"></span><span md-src-pos="1743..1746"></span></code></pre>
    <h1 id="pricing" md-src-pos="1821..1830">Pricing</h1>
    <p md-src-pos="1831..1994"><span md-src-pos="1831..1897">The full value of your monthly subscription is usable for Rewards.</span> <span md-src-pos="1898..1963">Any remaining balance does not roll over at the end of the month.</span> <br> <span md-src-pos="1969..1994">Free 30 day trial period.</span></p>
-   <table md-src-pos="1996..14040">
+   <table md-src-pos="1996..14041">
     <thead>
      <tr md-src-pos="1996..2791">
       <th align="center" md-src-pos="1997..2096"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Graphic+A1.png" alt="Pricing" __idea-generated="true" md-src-pos="1998..2095"></th>
@@ -69,64 +51,61 @@
       <td align="center" md-src-pos="7370..7566">Dedicated Manager</td>
      </tr>
      <tr class="intellij-row-even" md-src-pos="7568..7669">
-      <td colspan="3" align="center" md-src-pos="7569..7668"><strong md-src-pos="7590..7646">User experience when receiving rewards + cashing out</strong></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td colspan="4" align="center" md-src-pos="7569..7668"><strong md-src-pos="7590..7646">User experience when receiving rewards + cashing out</strong></td>
      </tr>
-     <tr md-src-pos="7670..8464">
+     <tr md-src-pos="7670..8465">
       <td align="center" md-src-pos="7671..7770">User Dashboard to Manage Funds</td>
       <td align="center" md-src-pos="7771..8068">✅</td>
-      <td align="center" md-src-pos="8069..8266">✅</td>
-      <td align="center" md-src-pos="8267..8463">✅</td>
+      <td align="center" md-src-pos="8069..8267">✅</td>
+      <td align="center" md-src-pos="8268..8464">✅</td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="8465..9260">
-      <td align="center" md-src-pos="8466..8565">User Gift Card Cashout</td>
-      <td align="center" md-src-pos="8566..8863">✅</td>
-      <td align="center" md-src-pos="8864..9062">✅</td>
-      <td align="center" md-src-pos="9063..9259">✅</td>
+     <tr class="intellij-row-even" md-src-pos="8466..9261">
+      <td align="center" md-src-pos="8467..8566">User Gift Card Cashout</td>
+      <td align="center" md-src-pos="8567..8864">✅</td>
+      <td align="center" md-src-pos="8865..9063">✅</td>
+      <td align="center" md-src-pos="9064..9260">✅</td>
      </tr>
-     <tr md-src-pos="9261..10056">
-      <td align="center" md-src-pos="9262..9361">"1 Click Redeem" Email Notification</td>
-      <td align="center" md-src-pos="9362..9659">❌</td>
-      <td align="center" md-src-pos="9660..9858">✅</td>
-      <td align="center" md-src-pos="9859..10055">✅</td>
+     <tr md-src-pos="9262..10057">
+      <td align="center" md-src-pos="9263..9362">"1 Click Redeem" Email Notification</td>
+      <td align="center" md-src-pos="9363..9660">❌</td>
+      <td align="center" md-src-pos="9661..9859">✅</td>
+      <td align="center" md-src-pos="9860..10056">✅</td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="10057..10456">
-      <td align="center" md-src-pos="10058..10157">Integrations (Surveys &amp; More)</td>
-      <td align="center" md-src-pos="10158..10455">Zapier (<a href="https://zapier.com/shared/55aa54da57f69cc482d7aca9238c9aee459c3b2" md-src-pos="10167..10248">Google Forms</a>, <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" md-src-pos="10250..10328">Calendly</a>, <a href="https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841" md-src-pos="10330..10408">Typeform</a> &amp; more), Sendgrid, SlickText &amp; FynCom API Key</td>
+     <tr class="intellij-row-even" md-src-pos="10058..10457">
+      <td align="center" md-src-pos="10059..10158">Integrations (Surveys &amp; More)</td>
+      <td align="center" md-src-pos="10159..10456">Zapier (<a href="https://zapier.com/shared/55aa54da57f69cc482d7aca9238c9aee459c3b2" md-src-pos="10168..10249">Google Forms</a>, <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" md-src-pos="10251..10329">Calendly</a>, <a href="https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841" md-src-pos="10331..10409">Typeform</a> &amp; more), Sendgrid, SlickText &amp; FynCom API Key</td>
       <td></td>
       <td></td>
      </tr>
-     <tr md-src-pos="10457..10856">
-      <td align="center" md-src-pos="10458..10557">Email Products</td>
-      <td align="center" md-src-pos="10558..10855">Sales (Simple), Marketing, Basic</td>
+     <tr md-src-pos="10458..10857">
+      <td align="center" md-src-pos="10459..10558">Email Products</td>
+      <td align="center" md-src-pos="10559..10856">Sales (Simple), Marketing, Basic</td>
       <td></td>
       <td></td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="10857..11652">
-      <td align="center" md-src-pos="10858..10957">API Access</td>
-      <td align="center" md-src-pos="10958..11255">✗</td>
-      <td align="center" md-src-pos="11256..11454">✔</td>
-      <td align="center" md-src-pos="11455..11651">✔</td>
+     <tr class="intellij-row-even" md-src-pos="10858..11653">
+      <td align="center" md-src-pos="10859..10958">API Access</td>
+      <td align="center" md-src-pos="10959..11256">✗</td>
+      <td align="center" md-src-pos="11257..11455">✔</td>
+      <td align="center" md-src-pos="11456..11652">✔</td>
      </tr>
-     <tr md-src-pos="11653..12448">
-      <td align="center" md-src-pos="11654..11753">Custom Builds</td>
-      <td align="center" md-src-pos="11754..12051">✗</td>
-      <td align="center" md-src-pos="12052..12250">✗</td>
-      <td align="center" md-src-pos="12251..12447">✔</td>
+     <tr md-src-pos="11654..12449">
+      <td align="center" md-src-pos="11655..11754">Custom Builds</td>
+      <td align="center" md-src-pos="11755..12052">✗</td>
+      <td align="center" md-src-pos="12053..12251">✗</td>
+      <td align="center" md-src-pos="12252..12448">✔</td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="12449..13244">
-      <td align="center" md-src-pos="12450..12549">Call Rewards - FynCalls</td>
-      <td align="center" md-src-pos="12550..12847">✗</td>
-      <td align="center" md-src-pos="12848..13046">✗</td>
-      <td align="center" md-src-pos="13047..13243">✔</td>
+     <tr class="intellij-row-even" md-src-pos="12450..13245">
+      <td align="center" md-src-pos="12451..12550">Call Rewards - FynCalls</td>
+      <td align="center" md-src-pos="12551..12848">✗</td>
+      <td align="center" md-src-pos="12849..13047">✗</td>
+      <td align="center" md-src-pos="13048..13244">✔</td>
      </tr>
-     <tr md-src-pos="13245..14040">
-      <td align="center" md-src-pos="13246..13345"></td>
-      <td align="center" md-src-pos="13346..13643"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1" formtarget="_blank">Get Basic</button></td>
-      <td align="center" md-src-pos="13644..13842"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1">Get Standard</button></td>
-      <td align="center" md-src-pos="13843..14039"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;subscription_items[quantity][0]=1">Get Premium</button></td>
+     <tr md-src-pos="13246..14041">
+      <td align="center" md-src-pos="13247..13346"></td>
+      <td align="center" md-src-pos="13347..13644"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1" formtarget="_blank">Get Basic</button></td>
+      <td align="center" md-src-pos="13645..13843"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1">Get Standard</button></td>
+      <td align="center" md-src-pos="13844..14040"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;subscription_items[quantity][0]=1">Get Premium</button></td>
      </tr>
     </tbody>
    </table>
