@@ -1,93 +1,140 @@
 <!doctype html>
 <html>
-<head>
-    <title>IntelliJ Markdown Preview</title>
-    <style>/* Reworked by IntelliJ Team The MIT License (MIT) Copyright (c) JetBrains Adapted from https://github.com/sindresorhus/github-markdown-css The MIT License (MIT) Copyright (c) Sindre Sorhus &lt;sindresorhus@gmail.com&gt; (sindresorhus.com) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */ @font-face { font-family: octicons-anchor; src: url(data:font/woff;charset=utf-8;base64,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) format('woff'); } body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; line-height: 1.6; word-wrap: break-word; margin: 0 2em; } strong { font-weight: bold; } img { border: 0; } input { color: inherit; font: inherit; margin: 0; line-height: normal; } html input[disabled] { cursor: default; } input[type="checkbox"] { box-sizing: border-box; padding: 0; } body * { box-sizing: border-box; } input { font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; } a { text-decoration: none; } a:hover, a:active { text-decoration: underline; } hr { height: 1px; padding: 0; margin: 20px 0; border: 0 none; } hr:before { display: table; content: ""; } hr:after { display: table; clear: both; content: ""; } blockquote { margin: 0; } ul, ol { padding: 0; margin-top: 0; margin-bottom: 0; } ol ol, ul ol { list-style-type: lower-roman; } ul ul ol, ul ol ol, ol ul ol, ol ol ol { list-style-type: lower-alpha; } dd { margin-left: 0; } .octicon { font: normal normal normal 16px/1 octicons-anchor; display: inline-block; text-decoration: none; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } .octicon-link:before { content: '\f05c'; } .markdown-body &gt; *:first-child { margin-top: 0 !important; } .markdown-body &gt; *:last-child { margin-bottom: 0 !important; } .anchor { position: absolute; top: 0; left: 0; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; } .anchor:focus { outline: none; } h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; } h1 .octicon-link, h2 .octicon-link, h3 .octicon-link, h4 .octicon-link, h5 .octicon-link, h6 .octicon-link { display: none; color: #000; vertical-align: middle; } h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; } h1:hover .anchor .octicon-link, h2:hover .anchor .octicon-link, h3:hover .anchor .octicon-link, h4:hover .anchor .octicon-link, h5:hover .anchor .octicon-link, h6:hover .anchor .octicon-link { display: inline-block; } h1 { font-size: 2.2em; padding-top: 0.6em; } h1 .anchor { line-height: 1; } h2 { font-size: 1.8em; line-height: 1.2; padding-top: 0.6em; } h2 .anchor { line-height: 1.2; } h3 { font-size: 1.3em; line-height: 1; padding-top: 0.6em; } h3 .anchor { line-height: 1.2; } h4 { font-size: 1em; } h4 .anchor { line-height: 1.2; } h5 { font-size: 1em; } h5 .anchor { line-height: 1.1; } h6 { font-size: 1em; } h6 .anchor { line-height: 1.1; } p, blockquote, ul, ol, dl, table, pre { margin-top: 16px; margin-bottom: 16px; } ul, ol { padding-left: 2em; } ul ul, ul ol, ol ol, ol ul { margin-top: 0; margin-bottom: 0; } li &gt; p { margin-top: 0; margin-bottom: 0; } dl { padding: 0; } dl dt { padding: 0; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; } dl dd { padding: 0 16px; margin-bottom: 16px; } blockquote { padding: 10px 10px 10px 16px; border-left: 2px solid; border-radius: 0 3px 3px 0; } blockquote &gt; :first-child { margin-top: 0; } blockquote &gt; :last-child { margin-bottom: 0; } table { display: block; width: 100%; overflow: auto; word-break: normal; border-collapse: collapse; border-spacing: 0; font-size: 1em; } table th { font-weight: bold; } table th, table td { padding: 6px 13px; background: transparent; } table tr { border-top: 1px solid; } img { max-width: 100%; box-sizing: border-box; } code { font: 0.9em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 0.2em 0.4em; margin: 2px; border-radius: 3px; } pre &gt; code { padding: 0; margin: 0; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0; } .highlight { margin-bottom: 16px; } .highlight pre, pre { font: 0.85em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 16px; overflow: auto; line-height: 1.45; border-radius: 3px; } pre code { display: inline; max-width: initial; padding: 0; margin: 0; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0; } pre code:before, pre code:after { content: normal; } kbd { font: 0.9em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 0.2em 0.4em; margin: 2px; border-radius: 3px; } .task-list-item { list-style-type: none; } .task-list-item + .task-list-item { margin-top: 3px; } .task-list-item input { margin: 0 0.35em 0.25em -0.6em; vertical-align: middle; } :checked + .radio-label { z-index: 1; position: relative; } span.user-del { text-decoration: line-through; } ::-webkit-scrollbar { width: 6px; height: 6px; } ::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; } ::-webkit-scrollbar-track:vertical { -webkit-box-shadow: -1px 0 0 #ededed; } ::-webkit-scrollbar-track { background-color: transparent; } ::-webkit-scrollbar { width: 6px; } </style>
-    <style>body { background-color: rgba(255, 255, 255, 255.0); font-size: 13px !important; } body, p, blockquote, ul, ol, dl, table, pre, code, tr { color: rgba(8, 8, 8, 255.0); } a { color: rgba(36, 112, 179, 255.0); } table td, table th { border: 1px solid rgba(209, 209, 209, 255.0); } hr { background-color: rgba(209, 209, 209, 255.0); } kbd, tr { border: 1px solid rgba(209, 209, 209, 255.0); } h6 { color: rgba(153, 153, 153, 255.0); } blockquote { border-left: 2px solid rgba(36, 112, 179, 0.4); } ::-webkit-scrollbar-thumb { background-color: rgba(115, 115, 115, 0.2); } blockquote, code, pre { background-color: rgba(212, 222, 231, 0.24705882352941178); }</style>
-</head>
+ <head>
+  <title>IntelliJ Markdown Preview</title>
+  <style>/* Reworked by IntelliJ Team The MIT License (MIT) Copyright (c) JetBrains Adapted from https://github.com/sindresorhus/github-markdown-css The MIT License (MIT) Copyright (c) Sindre Sorhus &lt;sindresorhus@gmail.com&gt; (sindresorhus.com) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */ @font-face { font-family: octicons-anchor; src: url(data:font/woff;charset=utf-8;base64,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) format('woff'); } body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Helvetica, Arial, freesans, sans-serif; font-size: 14px; line-height: 1.6; word-wrap: break-word; margin: 0 2em; } strong { font-weight: bold; } img { border: 0; } input { color: inherit; font: inherit; margin: 0; line-height: normal; } html input[disabled] { cursor: default; } input[type="checkbox"] { box-sizing: border-box; padding: 0; } body * { box-sizing: border-box; } input { font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; } a { text-decoration: none; } a:hover, a:active { text-decoration: underline; } hr { height: 1px; padding: 0; margin: 20px 0; border: 0 none; } hr:before { display: table; content: ""; } hr:after { display: table; clear: both; content: ""; } blockquote { margin: 0; } ul, ol { padding: 0; margin-top: 0; margin-bottom: 0; } ol ol, ul ol { list-style-type: lower-roman; } ul ul ol, ul ol ol, ol ul ol, ol ol ol { list-style-type: lower-alpha; } dd { margin-left: 0; } .octicon { font: normal normal normal 16px/1 octicons-anchor; display: inline-block; text-decoration: none; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; } .octicon-link:before { content: '\f05c'; } .markdown-body &gt; *:first-child { margin-top: 0 !important; } .markdown-body &gt; *:last-child { margin-bottom: 0 !important; } .anchor { position: absolute; top: 0; left: 0; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; } .anchor:focus { outline: none; } h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; } h1 .octicon-link, h2 .octicon-link, h3 .octicon-link, h4 .octicon-link, h5 .octicon-link, h6 .octicon-link { display: none; color: #000; vertical-align: middle; } h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; } h1:hover .anchor .octicon-link, h2:hover .anchor .octicon-link, h3:hover .anchor .octicon-link, h4:hover .anchor .octicon-link, h5:hover .anchor .octicon-link, h6:hover .anchor .octicon-link { display: inline-block; } h1 { font-size: 2.2em; padding-top: 0.6em; } h1 .anchor { line-height: 1; } h2 { font-size: 1.8em; line-height: 1.2; padding-top: 0.6em; } h2 .anchor { line-height: 1.2; } h3 { font-size: 1.3em; line-height: 1; padding-top: 0.6em; } h3 .anchor { line-height: 1.2; } h4 { font-size: 1em; } h4 .anchor { line-height: 1.2; } h5 { font-size: 1em; } h5 .anchor { line-height: 1.1; } h6 { font-size: 1em; } h6 .anchor { line-height: 1.1; } p, blockquote, ul, ol, dl, table, pre { margin-top: 16px; margin-bottom: 16px; } ul, ol { padding-left: 2em; } ul ul, ul ol, ol ol, ol ul { margin-top: 0; margin-bottom: 0; } li &gt; p { margin-top: 0; margin-bottom: 0; } dl { padding: 0; } dl dt { padding: 0; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; } dl dd { padding: 0 16px; margin-bottom: 16px; } blockquote { padding: 10px 10px 10px 16px; border-left: 2px solid; border-radius: 0 3px 3px 0; } blockquote &gt; :first-child { margin-top: 0; } blockquote &gt; :last-child { margin-bottom: 0; } table { display: block; width: 100%; overflow: auto; word-break: normal; border-collapse: collapse; border-spacing: 0; font-size: 1em; } table th { font-weight: bold; } table th, table td { padding: 6px 13px; background: transparent; } table tr { border-top: 1px solid; } img { max-width: 100%; box-sizing: border-box; } code { font: 0.9em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 0.2em 0.4em; margin: 2px; border-radius: 3px; } pre &gt; code { padding: 0; margin: 0; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0; } .highlight { margin-bottom: 16px; } .highlight pre, pre { font: 0.85em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 16px; overflow: auto; line-height: 1.45; border-radius: 3px; } pre code { display: inline; max-width: initial; padding: 0; margin: 0; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0; } pre code:before, pre code:after { content: normal; } kbd { font: 0.9em "JetBrains Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace; padding: 0.2em 0.4em; margin: 2px; border-radius: 3px; } .task-list-item { list-style-type: none; } .task-list-item + .task-list-item { margin-top: 3px; } .task-list-item input { margin: 0 0.35em 0.25em -0.6em; vertical-align: middle; } :checked + .radio-label { z-index: 1; position: relative; } span.user-del { text-decoration: line-through; } ::-webkit-scrollbar { width: 6px; height: 6px; } ::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; } ::-webkit-scrollbar-track:vertical { -webkit-box-shadow: -1px 0 0 #ededed; } ::-webkit-scrollbar-track { background-color: transparent; } ::-webkit-scrollbar { width: 6px; }</style>
+  <style>body { background-color: rgba(255, 255, 255, 255.0); font-size: 14px !important; } body, p, blockquote, ul, ol, dl, table, pre, code, tr { color: rgba(8, 8, 8, 255.0); } a { color: rgba(36, 112, 179, 255.0); } table td, table th { border: 1px solid rgba(209, 209, 209, 255.0); } hr { background-color: rgba(209, 209, 209, 255.0); } kbd, tr { border: 1px solid rgba(209, 209, 209, 255.0); } h6 { color: rgba(153, 153, 153, 255.0); } blockquote { border-left: 2px solid rgba(36, 112, 179, 0.4); } ::-webkit-scrollbar-thumb { background-color: java.awt.Color[r=115,g=115,b=115]; } blockquote, code, pre { background-color: rgba(212, 222, 231, 0.24705882352941178); }</style>
+  <style>/* Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .code-fence-highlighter-copy-button { display: flex; position: absolute; float: left; margin-left: -1em; margin-top: -1em; } .code-fence-highlighter-copy-button-icon { max-width: 1em; } .code-fence:hover .code-fence-highlighter-copy-button-icon { /*noinspection CssUnknownTarget*/ content: url("copy-button-copy-icon.png"); } .code-fence:hover .code-fence-highlighter-copy-button:hover .code-fence-highlighter-copy-button-icon { /*noinspection CssUnknownTarget*/ content: url("copy-button-copy-icon-hovered.png"); cursor: pointer; }</style>
+  <style>/* Copyright 2000-2021 JetBrains s.r.o. and contributors. Use of this source code is governed by the Apache 2.0 license that can be found in the LICENSE file. */ .run-icon &gt; img { max-width: 1em; vertical-align: text-top; margin-right: 0.3em; } .code-block { position: absolute; left: 1em; } .hidden { display: none; }</style>
+ </head>
  <body>
-   <h1 md-src-pos="1366..1375">Pricing</h1>
-   <p md-src-pos="1376..1789"><span md-src-pos="1376..1442">The full value of your monthly subscription is usable for Rewards.</span> <span md-src-pos="1443..1508">Any remaining balance does not roll over at the end of the month.*</span> <br> <p1><em md-src-pos="1509..1789">Free 30 day trial period.</em></p1></p>
-       
-   <table md-src-pos="1791..9972">
+  <div md-src-pos="0..15917">
+   <p md-src-pos="0..153"><span md-src-pos="0..6">#Notes</span> <span md-src-pos="7..8">-</span> <span md-src-pos="9..25">Convert to HTML,</span> <span md-src-pos="26..67">then delete everything before style tags.</span> <span md-src-pos="68..110">Export as HTML and then modify html to use</span> <code md-src-pos="111..124">colspan="3"</code> <span md-src-pos="125..131">in the</span> <code md-src-pos="132..138">&lt;td&gt;</code> <span md-src-pos="139..153">of last 2 rows</span></p>
+   <pre class="code-fence" md-src-pos="155..360">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="PHRkIGNvbHNwYW49IjMiIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY4MC4uNzMwIj5aYXBpZXIsIFNlbmRncmlkLCBTbGlja1RleHQgJmFtcDsgRnluQ29tIEFQSSBLZXk8L3RkPgo8dGQgY29sc3Bhbj0iMyIgYWxpZ249ImNlbnRlciIgbWQtc3JjLXBvcz0iNzU1Li44MDUiPlNhbGVzIChTaW1wbGUpLCBNYXJrZXRpbmcsIEJhc2ljPC90ZD4=">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="155..360"><span md-src-pos="155..159"></span><span md-src-pos="159..311">&lt;td colspan="3" align="center" md-src-pos="680..730"&gt;Zapier, Sendgrid, SlickText &amp;amp; FynCom API Key&lt;/td&gt;</span>
+<span md-src-pos="312..444">&lt;td colspan="3" align="center" md-src-pos="755..805"&gt;Sales (Simple), Marketing, Basic&lt;/td&gt;</span>
+<span md-src-pos="445..445"></span><span md-src-pos="357..360"></span></code></pre>
+   <p md-src-pos="362..817"><span class="user-del" md-src-pos="362..526">Redirecting the window requires controlling the parent. Use <code md-src-pos="424..471">onclick="window.parent.location.href='link';"</code> to send to new page. Nothing else works except this.</span> <span md-src-pos="527..582">Redirecting the window requires controlling the parent.</span> <span md-src-pos="583..586">Use</span> <code md-src-pos="587..662">onclick="window.open('url'), 'target=_blank', 'rel=noopener noreferrer';"</code> <span md-src-pos="663..682">to send to new tab.</span> <br> <span md-src-pos="688..748">You will also want to update the Zapier href links with this</span> (<span md-src-pos="750..770">see Integrations row</span>) <code md-src-pos="772..817">target="=_blank", rel="noopener noreferrer"</code></p>
+   <pre class="code-fence" md-src-pos="820..1746">
+    <div class="code-fence-highlighter-copy-button" data-fence-content="PHRkIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY1ODEuLjY3OTQiPjxidXR0b24gbmFtZT0iYnV0dG9uIiBvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9meW5jb20uY2hhcmdlYmVlLmNvbS9ob3N0ZWRfcGFnZXMvY2hlY2tvdXQ/c3Vic2NyaXB0aW9uX2l0ZW1zW2l0ZW1fcHJpY2VfaWRdWzBdPWJhc2ljLVVTRC1Nb250aGx5JmFtcDtzdWJzY3JpcHRpb25faXRlbXNbcXVhbnRpdHldWzBdPTEnKSwgJ3RhcmdldD1fYmxhbmsnLCAncmVsPW5vb3BlbmVyIG5vcmVmZXJyZXInOyI+R2V0IEJhc2ljPC9idXR0b24+PC90ZD4KPHRkIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY3OTUuLjY5OTEiPjxidXR0b24gbmFtZT0iYnV0dG9uIiBvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9meW5jb20uY2hhcmdlYmVlLmNvbS9ob3N0ZWRfcGFnZXMvY2hlY2tvdXQ/c3Vic2NyaXB0aW9uX2l0ZW1zW2l0ZW1fcHJpY2VfaWRdWzBdPXN0YW5kYXJkLVVTRC1Nb250aGx5JmFtcDtzdWJzY3JpcHRpb25faXRlbXNbcXVhbnRpdHldWzBdPTEnKSwgJ3RhcmdldD1fYmxhbmsnLCAncmVsPW5vb3BlbmVyIG5vcmVmZXJyZXInOyI+R2V0IFN0YW5kYXJkPC9idXR0b24+PC90ZD4KPHRkIGFsaWduPSJjZW50ZXIiIG1kLXNyYy1wb3M9IjY5OTIuLjcxODgiPjxidXR0b24gbmFtZT0iYnV0dG9uIiBvbmNsaWNrPSJ3aW5kb3cub3BlbignaHR0cHM6Ly9meW5jb20uY2hhcmdlYmVlLmNvbS9ob3N0ZWRfcGFnZXMvY2hlY2tvdXQ/c3Vic2NyaXB0aW9uX2l0ZW1zW2l0ZW1fcHJpY2VfaWRdWzBdPXByZW1pdW0tVVNELU1vbnRobHkmYW1wO3N1YnNjcmlwdGlvbl9pdGVtc1txdWFudGl0eV1bMF09MScpLCAndGFyZ2V0PV9ibGFuaycsICdyZWw9bm9vcGVuZXIgbm9yZWZlcnJlcic7Ij5HZXQgUHJlbWl1bTwvYnV0dG9uPjwvdGQ+">
+  <img class="code-fence-highlighter-copy-button-icon">
+
+    </div><code md-src-pos="820..1746"><span md-src-pos="820..824"></span><span md-src-pos="824..1194">&lt;td align="center" md-src-pos="6581..6794"&gt;&lt;button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"&gt;Get Basic&lt;/button&gt;&lt;/td&gt;</span>
+<span md-src-pos="1195..1571">&lt;td align="center" md-src-pos="6795..6991"&gt;&lt;button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"&gt;Get Standard&lt;/button&gt;&lt;/td&gt;</span>
+<span md-src-pos="1572..1946">&lt;td align="center" md-src-pos="6992..7188"&gt;&lt;button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"&gt;Get Premium&lt;/button&gt;&lt;/td&gt;</span>
+<span md-src-pos="1947..1947"></span><span md-src-pos="1743..1746"></span></code></pre>
+   <h1 id="pricing" md-src-pos="1821..1830">Pricing</h1>
+   <p md-src-pos="1831..1994"><span md-src-pos="1831..1897">The full value of your monthly subscription is usable for Rewards.</span> <span md-src-pos="1898..1963">Any remaining balance does not roll over at the end of the month.</span> <br> <span md-src-pos="1969..1994">Free 30 day trial period.</span></p>
+   <table md-src-pos="1996..14040">
     <thead>
-     <tr md-src-pos="1791..2587">
-      <th align="center" md-src-pos="1792..1891"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Graphic+A1.png" alt="Pricing" __idea-generated="true" md-src-pos="1793..1890"></th>
-      <th align="center" md-src-pos="1892..2190"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Basic+A2.png" alt="Basic Pricing" __idea-generated="true" md-src-pos="1990..2091"></th>
-      <th align="center" md-src-pos="2191..2389"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Standard+A3.png" alt="Standard Pricing" __idea-generated="true" md-src-pos="2236..2343"></th>
-      <th align="center" md-src-pos="2390..2586"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Premium+A4.png" alt="Premium Pricing" __idea-generated="true" md-src-pos="2435..2540"></th>
+     <tr md-src-pos="1996..2791">
+      <th align="center" md-src-pos="1997..2096"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Graphic+A1.png" alt="Pricing" __idea-generated="true" md-src-pos="1998..2095"></th>
+      <th align="center" md-src-pos="2097..2394"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Standard+A2_50.png" alt="Standard Pricing" __idea-generated="true" md-src-pos="2190..2300"></th>
+      <th align="center" md-src-pos="2395..2593"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Pro+A3_.png" alt="Pro Pricing" __idea-generated="true" md-src-pos="2445..2543"></th>
+      <th align="center" md-src-pos="2594..2790"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Enterprise+A4.png" alt="Enterprise Pricing" __idea-generated="true" md-src-pos="2636..2747"></th>
      </tr>
     </thead>
     <tbody>
-     <tr md-src-pos="3385..4181">
-      <td align="center" md-src-pos="3386..3485">Number of users</td>
-      <td align="center" md-src-pos="3486..3784">3</td>
-      <td align="center" md-src-pos="3785..3983">10</td>
-      <td align="center" md-src-pos="3984..4180">No limit</td>
+     <tr md-src-pos="3588..4383">
+      <td align="center" md-src-pos="3589..3688">"Use It or Lose It" Credits*</td>
+      <td align="center" md-src-pos="3689..3986">$50</td>
+      <td align="center" md-src-pos="3987..4185">$50</td>
+      <td align="center" md-src-pos="4186..4382">Custom</td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="4182..4978">
-      <td align="center" md-src-pos="4183..4282">Rewards Transactions<sup>1</sup></td>
-      <td align="center" md-src-pos="4283..4581">10,000</td>
-      <td align="center" md-src-pos="4582..4780">100,000</td>
-      <td align="center" md-src-pos="4781..4977">Unlimited</td>
+     <tr class="intellij-row-even" md-src-pos="4384..5179">
+      <td align="center" md-src-pos="4385..4484">Sender Accounts</td>
+      <td align="center" md-src-pos="4485..4782">3</td>
+      <td align="center" md-src-pos="4783..4981">10</td>
+      <td align="center" md-src-pos="4982..5178">100+</td>
      </tr>
-     <tr md-src-pos="4979..5775">
-      <td align="center" md-src-pos="4980..5079">Rewards Campaigns<sup>2</sup></td>
-      <td align="center" md-src-pos="5080..5378">3</td>
-      <td align="center" md-src-pos="5379..5577">Unlimited</td>
-      <td align="center" md-src-pos="5578..5774">Unlimited</td>
+     <tr md-src-pos="5180..5975">
+      <td align="center" md-src-pos="5181..5280">Rewards Campaigns<sup>1</sup></td>
+      <td align="center" md-src-pos="5281..5578">5</td>
+      <td align="center" md-src-pos="5579..5777">20</td>
+      <td align="center" md-src-pos="5778..5974">Unlimited</td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="5776..6572">
-      <td align="center" md-src-pos="5777..5876">Commission (%)<sup>3</sup></td>
-      <td align="center" md-src-pos="5877..6175">15</td>
-      <td align="center" md-src-pos="6176..6374">10</td>
-      <td align="center" md-src-pos="6375..6571">5</td>
+     <tr class="intellij-row-even" md-src-pos="5976..6771">
+      <td align="center" md-src-pos="5977..6076">Commission<sup>2</sup></td>
+      <td align="center" md-src-pos="6077..6374">30%</td>
+      <td align="center" md-src-pos="6375..6573">15%</td>
+      <td align="center" md-src-pos="6574..6770">5%</td>
      </tr>
-     <tr md-src-pos="6573..7369">
-      <td align="center" md-src-pos="6574..6673">Support Speed (Hrs)</td>
-      <td align="center" md-src-pos="6674..6972">72</td>
-      <td align="center" md-src-pos="6973..7171">48</td>
-      <td align="center" md-src-pos="7172..7368">12</td>
+     <tr md-src-pos="6772..7567">
+      <td align="center" md-src-pos="6773..6872">Support</td>
+      <td align="center" md-src-pos="6873..7170">Email</td>
+      <td align="center" md-src-pos="7171..7369">Priority, Email &amp; Phone.</td>
+      <td align="center" md-src-pos="7370..7566">Dedicated Manager</td>
      </tr>
-     <tr md-src-pos="7771..8171">
-      <td align="center" md-src-pos="7772..7871">Integrations (Surveys & More)</td>
-      <td colspan="3"  align="center" md-src-pos="7872..8170">Zapier (<a href="https://zapier.com/shared/55aa54da57f69cc482d7aca9238c9aee459c3b22" target="=_blank", rel="noopener noreferrer" md-src-pos="7881..7963">Google Forms</a>, <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" target="=_blank", rel="noopener noreferrer" md-src-pos="7965..8043">Calendly</a>, <a href="https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841" target="=_blank", rel="noopener noreferrer"  md-src-pos="8045..8123">Typeform</a> &amp; more), Sendgrid, SlickText &amp; FynCom API Key</td>
+     <tr class="intellij-row-even" md-src-pos="7568..7669">
+      <td colspan="3" align="center" md-src-pos="7569..7668"><strong md-src-pos="7590..7646">User experience when receiving rewards + cashing out</strong></td>
+      <td></td>
+      <td></td>
+      <td></td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="8172..8572">
-      <td align="center" md-src-pos="8173..8272">Email Products</td>
-      <td colspan="3" align="center" md-src-pos="8273..8571">Sales (Simple), Marketing, Basic</td>
+     <tr md-src-pos="7670..8464">
+      <td align="center" md-src-pos="7671..7770">User Dashboard to Manage Funds</td>
+      <td align="center" md-src-pos="7771..8068">✅</td>
+      <td align="center" md-src-pos="8069..8266">✅</td>
+      <td align="center" md-src-pos="8267..8463">✅</td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="7370..7770">
-         <td align="center" md-src-pos="7371..7470">API Access</td>
-         <td align="center" md-src-pos="7471..7769"> 	&#x2717;</td>
-         <td align="center" md-src-pos="7471..7769"> 	&#10004;</td>
-         <td align="center" md-src-pos="7471..7769"> 	&#10004;</td>
+     <tr class="intellij-row-even" md-src-pos="8465..9260">
+      <td align="center" md-src-pos="8466..8565">User Gift Card Cashout</td>
+      <td align="center" md-src-pos="8566..8863">✅</td>
+      <td align="center" md-src-pos="8864..9062">✅</td>
+      <td align="center" md-src-pos="9063..9259">✅</td>
      </tr>
-     <tr md-src-pos="8573..9175">
-      <td align="center" md-src-pos="8574..8673">Custom Builds</td>
-      <td align="center" md-src-pos="8674..8972">&#x2717;</td>
-      <td align="center" md-src-pos="8973..8977">&#x2717;</td>
-      <td align="center" md-src-pos="8978..9174">&#10004;</td>
+     <tr md-src-pos="9261..10056">
+      <td align="center" md-src-pos="9262..9361">"1 Click Redeem" Email Notification</td>
+      <td align="center" md-src-pos="9362..9659">❌</td>
+      <td align="center" md-src-pos="9660..9858">✅</td>
+      <td align="center" md-src-pos="9859..10055">✅</td>
      </tr>
-     <tr md-src-pos="8573..9175">
-         <td align="center" md-src-pos="8574..8673">Call Rewards - FynCalls</td>
-         <td align="center" md-src-pos="8674..8972">&#x2717;</td>
-         <td align="center" md-src-pos="8973..8977">&#x2717;</td>
-         <td align="center" md-src-pos="8978..9174">&#10004;</td>
+     <tr class="intellij-row-even" md-src-pos="10057..10456">
+      <td align="center" md-src-pos="10058..10157">Integrations (Surveys &amp; More)</td>
+      <td align="center" md-src-pos="10158..10455">Zapier (<a href="https://zapier.com/shared/55aa54da57f69cc482d7aca9238c9aee459c3b2" md-src-pos="10167..10248">Google Forms</a>, <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" md-src-pos="10250..10328">Calendly</a>, <a href="https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841" md-src-pos="10330..10408">Typeform</a> &amp; more), Sendgrid, SlickText &amp; FynCom API Key</td>
+      <td></td>
+      <td></td>
      </tr>
-     <tr class="intellij-row-even" md-src-pos="6480..7189">
-         <td align="center" md-src-pos="6481..6580"></td>
-         <td align="center" md-src-pos="6581..6794"><button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Basic</button></td>
-         <td align="center" md-src-pos="6795..6991"><button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Standard</button></td>
-         <td align="center" md-src-pos="6992..7188"><button name="button" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Premium</button></td>
+     <tr md-src-pos="10457..10856">
+      <td align="center" md-src-pos="10458..10557">Email Products</td>
+      <td align="center" md-src-pos="10558..10855">Sales (Simple), Marketing, Basic</td>
+      <td></td>
+      <td></td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="10857..11652">
+      <td align="center" md-src-pos="10858..10957">API Access</td>
+      <td align="center" md-src-pos="10958..11255">✗</td>
+      <td align="center" md-src-pos="11256..11454">✔</td>
+      <td align="center" md-src-pos="11455..11651">✔</td>
+     </tr>
+     <tr md-src-pos="11653..12448">
+      <td align="center" md-src-pos="11654..11753">Custom Builds</td>
+      <td align="center" md-src-pos="11754..12051">✗</td>
+      <td align="center" md-src-pos="12052..12250">✗</td>
+      <td align="center" md-src-pos="12251..12447">✔</td>
+     </tr>
+     <tr class="intellij-row-even" md-src-pos="12449..13244">
+      <td align="center" md-src-pos="12450..12549">Call Rewards - FynCalls</td>
+      <td align="center" md-src-pos="12550..12847">✗</td>
+      <td align="center" md-src-pos="12848..13046">✗</td>
+      <td align="center" md-src-pos="13047..13243">✔</td>
+     </tr>
+     <tr md-src-pos="13245..14040">
+      <td align="center" md-src-pos="13246..13345"></td>
+      <td align="center" md-src-pos="13346..13643"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1" formtarget="_blank">Get Basic</button></td>
+      <td align="center" md-src-pos="13644..13842"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1">Get Standard</button></td>
+      <td align="center" md-src-pos="13843..14039"><button name="button" onclick="https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=premium-USD-Monthly&amp;subscription_items[quantity][0]=1">Get Premium</button></td>
      </tr>
     </tbody>
    </table>
-   <p md-src-pos="9975..10059"><strong md-src-pos="9975..9999">Rewards Transactions</strong><sup><span md-src-pos="10004..10005">1</span></sup> <br> <span md-src-pos="10017..10059">Number of rewards you can send in a month.</span></p>
-   <p md-src-pos="10061..10144"><strong md-src-pos="10061..10082">Rewards Campaigns</strong><sup><span md-src-pos="10087..10088">2</span></sup> <br> <span md-src-pos="10100..10144">Number of active rewards campaigns per month. You can make as many rewards campaigns as you like, but only 3 will be active.</span></p>
-   <p md-src-pos="10146..10320"><strong md-src-pos="10146..10160">Commission</strong><sup><span md-src-pos="10165..10166">3</span></sup> <br> <span md-src-pos="10178..10219">The commission paid to FynCom per reward.</span> <span md-src-pos="10220..10261">If a response is received for a reward offer of</span> <span md-src-pos="10262..10268">$1.00,</span> <span md-src-pos="10269..10273">then</span> <span md-src-pos="10274..10282">$1.05 to</span> <span md-src-pos="10283..10300">$1.15 is charged,</span> <span md-src-pos="10301..10320">based on your plan. The recipient receives the full $1.00 and is not charged any fees to withdraw their funds or purchase gift cards.</span></p>
-    <p><em md-src-pos="1509..1789">*If you send out more rewards than your monthly subscription (example, you have a $100 subscription and want to send $110), you may add funds to your account in the wallet page at any point. Those excess funds stay in your FynCom account and will indefinitely roll over on a month-to-month basis.</em></p>
-
+   <p md-src-pos="14042..14362"><strong md-src-pos="14042..14063">Use It or Lose It</strong><sup>*</sup> <strong md-src-pos="14076..14104">for Standard &amp; Pro Plans</strong> <br> <span md-src-pos="14110..14137">Your subscription gives you</span> <span md-src-pos="14138..14188">$50 of FynCom credit to use as Rewards each month.</span> <span md-src-pos="14189..14244">Credits are subject to commission and do not roll over.</span> <span md-src-pos="14245..14361">Remaining Credits can be automated to be delivered as a lottery to a list of employee emails or even customer emails</span>!</p>
+   <p md-src-pos="14364..14527"><strong md-src-pos="14364..14385">Rewards Campaigns</strong><sup><span md-src-pos="14390..14391">1</span></sup> <br> <span md-src-pos="14403..14448">Number of active rewards campaigns per month.</span> <span md-src-pos="14449..14500">You can make as many rewards campaigns as you like,</span> <span md-src-pos="14501..14527">but only 3 will be active.</span></p>
+   <p md-src-pos="14529..14823"><strong md-src-pos="14529..14543">Commission</strong><sup><span md-src-pos="14548..14549">3</span></sup> <br> <span md-src-pos="14561..14602">The commission paid to FynCom per reward.</span> <span md-src-pos="14603..14650">If a response is received for a reward offer of</span> <span md-src-pos="14651..14657">$1.00,</span> <span md-src-pos="14658..14662">then</span> <span md-src-pos="14663..14671">$1.05 to</span> <span md-src-pos="14672..14689">$1.15 is charged,</span> <span md-src-pos="14690..14709">based on your plan.</span> <span md-src-pos="14710..14741">The recipient receives the full</span> <span md-src-pos="14742..14823">$1.00 and is not charged any fees to withdraw their funds or purchase gift cards.</span></p>
+   <p md-src-pos="14825..15110"><em md-src-pos="14825..15110">*If you send out more rewards than your monthly subscription (example, you have a $100 subscription and want to send $110), you may add funds to your account in the wallet page at any point. Those excess funds stay in your FynCom account and will roll over on a month-to-month basis.</em></p>
+   <p md-src-pos="15112..15229"><a href="#" md-src-pos="15112..15116">//</a>: <span md-src-pos="15118..15119">#</span> <span md-src-pos="15120..15125">Note,</span> <span md-src-pos="15126..15174">you wll have to add this yourself into the HTML.</span> <span md-src-pos="15175..15227">Markdown to HTML converter does not do this for you.</span>()</p>
    <style>
         th {
             border-right:hidden!important;
@@ -114,15 +161,13 @@
         p {
             font-size: 18px;
         }
-        p1 {
-            font-size: 14px;
-        }
         strong {
             font-size: 26px;
         }
         h1 {
             font-size: 36px;
         }
-   </style>  </div>
+</style>
+  </div>
  </body>
 </html>
