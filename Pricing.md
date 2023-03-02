@@ -67,7 +67,7 @@ Up to $50 of your monthly subscription is usable for Rewards. Subscription does 
 |                                     Data Analytics Dashboard                                      |                                                       ❌                                                        |                                                                                                                                        ✅                                                                                                                                         |                                                        ✅                                                        |
 |                                  Min Value / Max Engagement Tips                                  |                                                       ❌                                                        |                                                                                                                                        ✅                                                                                                                                         |                                                        ✅                                                        |
 |                                   Optimal Rewards Data Insight                                    |                                                       ✅                                                        |                                                                                                                                        ✅                                                                                                                                         |                                                        ✅                                                        |
-|                                    Advanced Data Insights****                                     |                                                       ❌                                                        |                                                                                                                                        ❌                                                                                                                                         |                                                        ✅                                                        |
+|                                Advanced Data Insights<sup>3</sup>                                 |                                                       ❌                                                        |                                                                                                                                        ❌                                                                                                                                         |                                                        ✅                                                        |
 |                                                                                                   |            <button name="button" onclick="Fix after HTML Conversion (above)">Get Standard</button>             |                                                                                                <button name="button" onclick="Fix after HTML Conversion (above)">Get Pro</button>                                                                                                |              <button name="button" onclick="Fix after HTML Conversion (above)">Contact Us</button>              |
 
 <sup>*</sup>**Use It or Lose It for Standard & Pro Plans** <br>
@@ -78,12 +78,23 @@ Remaining Credits can be automated to be delivered as a lottery to a list of cus
 The number of active Rewards Campaigns your plan can have at a time.
 
 <sup>2</sup>**Commission** <br>
-The commission is based on reward size and is only paid to FynCom when a response is received or desired action completed. 
-Here is an example for Standard plans. You create a Rewards Campaign of $1.00 and attach it to a Calendly booking so that anyone who books get rewarded. jamie@bestFakeCompany.com books an event.
-Jamie instantly receives $1.00 from your Account Balance and is notified by email.
-FynCom receives $0.15 from your Account Balance. 
-$1.15 total is deducted from your Account Balance.
-Jamie is not charged any fees to withdraw funds or purchase gift cards.
+The commission is based on reward size and is only paid to FynCom when a response is received or desired action completed. <br>
+Here is an example for Standard plans. <br>
+You create a Rewards Campaign of $1.00 and attach it to a Calendly booking so that anyone who books get rewarded. <br>
+- jamie@bestFakeCompany.com books an event.
+- $1.15 total is deducted from your Account Balance.
+- Jamie instantly receives $1.00 from your Account Balance and is notified by email.
+  - FynCom receives $0.15 from your Account Balance. 
+  - Jamie is not charged any fees to withdraw funds or purchase gift cards.
+
+Here is the same sample for all plans. <br>
+
+|                                           |       |       |        |
+|-------------------------------------------|-------|-------|--------|
+| Reward To Recipient                       | $1.00 | $1.00 | $1.00  |
+| Commission to FynCom                      | $0.30 | $0.15 | $0.05  |
+| Amount deducted from your FynCom balance  | $1.30 | $1.15 | $1.05  |
+
 
 _*If you send out more rewards than your monthly subscription (example, you have a $100 subscription and want to send $110), you may add funds to your account
 in the wallet page at any point. Those excess funds stay in your FynCom account and will roll over on a month-to-month basis._
