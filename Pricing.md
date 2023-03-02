@@ -1,15 +1,14 @@
-#Notes1 - Convert to HTML, then delete everything before style tags.
-
-#Notes2 - delete everything between </head and Pricing, but leave the <body tag. Not sure what the above means... but Notes1 allowed visible widgets mobile. This one doesn't.
-Export as HTML and then modify html to use `colspan="3"` in the `<td>` of last 2 rows
+#Notes2 - delete everything between </head> <body> and Pricing. Make sure you leave the <body> tag.
+Export as HTML and then modify html as instructed in multiline comment below.
 
 ~~Redirecting the window requires controlling the parent. Use `onclick="window.parent.location.href='link';"` to send to new page. Nothing else works except this.~~
 Redirecting the window requires controlling the parent. Use `onclick="window.open('url'), 'target=_blank', 'rel=noopener noreferrer';"` to send to new tab. <br>
 You will also want to update the Zapier href links with this (see Integrations row) `target="=_blank", rel="noopener noreferrer"`
 
-
 ```
-[//]: # (<td align="center" md-src-pos="6581..6794"><button name="button" onclick="window.open&#40;'https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=basic-USD-Monthly&amp;subscription_items[quantity][0]=1'&#41;, 'target=_blank', 'rel=noopener noreferrer';">Get Basic</button></td>)
+MODIFY HTML WITH BELOW CODE
+
+HOTJAR IFRAME CODE IS NOT VIABLE INTO HEAD AND BODY. WILL RESTRICT JS
 
 TURNS IMAGES INTO LINKS FOR THE TOP IMAGES - After converting from MD to HTML - replace the table headers with this.
   <th align="center" md-src-pos="2253..2453"><img src="https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Standard+A2_50.png" alt="Standard Pricing" __idea-generated="true" md-src-pos="2298..2408" onMouseOver="this.style.cursor='pointer'" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';"></th>
@@ -27,6 +26,22 @@ FOR THE BUTTONS IN THE LAST CELL
     <td align="center" md-src-pos="6795..6991"><button name="button" style="background-color:#4A90E2;color:white" onMouseOver="this.style.cursor='pointer'" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=standard-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Standard</button></td>
     <td align="center" md-src-pos="6795..6991"><button name="button" style="background-color:#4A90E2;color:white" onMouseOver="this.style.cursor='pointer'" onclick="window.open('https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=pro-USD-Monthly&amp;subscription_items[quantity][0]=1'), 'target=_blank', 'rel=noopener noreferrer';">Get Pro</button></td>
     <td align="center" md-src-pos="6992..7188"><button name="button" style="background-color:#4A90E2;color:white" onMouseOver="this.style.cursor='pointer'" onclick="window.open('https://www.fyncom.com/contact'), 'target=_blank';">Contact Us</button></td>
+
+NOTE: YOU NEED 2 ELEMENTS - 1 for mobile and 1 for desktop.
+
+Use this CSS Code in the Style tags for mobile. Hide desktop on mobile and hide mobile on desktop. Don't stretch too far on mobile or you'll lose horizontal scroll
+
+   <style>
+       th {
+           border-right:hidden!important;
+           border-left:hidden!important;
+           border-top:hidden!important;
+       }
+       tr {
+            border-left:2px solid black;
+       }
+</style>
+
 ```
 
 
