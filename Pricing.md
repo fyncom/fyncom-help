@@ -148,7 +148,7 @@ Be the first to know the optimal rewards sizes to deliver to certain demographic
             font-size: 18px;
         }
         strong {
-            font-size: 26px;
+            font-size: 20px;
         }
         h1 {
             font-size: 36px;
