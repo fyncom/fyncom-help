@@ -52,9 +52,9 @@ Below are a few of the variables that influence the answer to the question above
 </summary><blockquote>
 We'll give you a framework to answer this for yourself. This is how customers find success with FynCom and how they start to min/max value/engagment.
 <br>
+
+
 <br>
-
-
 <details><summary>
 
 #### Framework for rewards success 
@@ -71,7 +71,7 @@ Run A/B tests until you get to the smallest value you can offer, while still hav
 
 </blockquote></details>
 
-
+<br>
 <details><summary>
 
 #### Can you just tell me the answer? 
@@ -97,7 +97,7 @@ Below are a few of the variables that influence the answer to the question above
 </blockquote></details>
 </blockquote></details>
 
-
+<br>
 <details><summary>
 
 ### How do I get started? 
