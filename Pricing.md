@@ -31,6 +31,8 @@ NOTE: YOU NEED 2 ELEMENTS - 1 for mobile and 1 for desktop.
 
 Use this CSS Code in the Style tags for mobile. Hide desktop on mobile and hide mobile on desktop. Don't stretch too far on mobile or you'll lose horizontal scroll
 
+<table class="small" md-src-pos="22759..23113">
+
    <style>
        th {
            border-right:hidden!important;
@@ -48,11 +50,11 @@ Use this CSS Code in the Style tags for mobile. Hide desktop on mobile and hide 
 [//]: # (You will want to manually add links into the HTML later too.)
 
 # Pricing
-Up to $50 of your monthly subscription is usable for Rewards. Subscription does not roll over at the end of the month. Account top-ups roll over indefinitely.
+A part of your monthly subscription is usable for Rewards. Subscription does not roll over at the end of the month. Account top-ups roll over indefinitely.
 
 | ![Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Graphic+A1.png) | ![Standard Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Standard+A2_50.png) |                 [![Pro Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Pro+A3_.png)]("https://fyncom.chargebee.com/hosted_pages/checkout?subscription_items[item_price_id][0]=pro-USD-Monthly&subscription_items[quantity][0]=1)                 | ![Enterprise Pricing](https://fyncom-static-files.s3.us-west-1.amazonaws.com/pricing/Pricing+Enterprise+A4.png) |
 |:-------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
-|                                   "Use It or Lose It" Credits*                                    |                                                      $50                                                       |                                                                                                                                       $50                                                                                                                                        |                                                     Custom                                                      |
+|                                   "Use It or Lose It" Credits*                                    |                                                      $20                                                       |                                                                                                                                       $50                                                                                                                                        |                                                     Custom                                                      |
 |                                          Sender Accounts                                          |                                                       3                                                        |                                                                                                                                        10                                                                                                                                        |                                                      100+                                                       |
 |                                   Rewards Campaigns<sup>1</sup>                                   |                                                       5                                                        |                                                                                                                                        20                                                                                                                                        |                                                    Unlimited                                                    |
 |                                      Commission<sup>2</sup>                                       |                                                      30%                                                       |                                                                                                                                       15%                                                                                                                                        |                                                       5%                                                        |
@@ -84,15 +86,10 @@ Up to $50 of your monthly subscription is usable for Rewards. Subscription does 
 |                                                                                                   |            <button name="button" onclick="Fix after HTML Conversion (above)">Get Standard</button>             |                                                                                                <button name="button" onclick="Fix after HTML Conversion (above)">Get Pro</button>                                                                                                |              <button name="button" onclick="Fix after HTML Conversion (above)">Contact Us</button>              |
 
 <sup>*</sup>**Use It or Lose It for Standard & Pro Plans** <br>
-Your subscription gives you $50 of FynCom credit to use as Rewards each month. Credits are subject to commission and do not roll over.
-Remaining Credits can be automated to be delivered as a lottery to a list of customer emails or even employee emails!
-
-<br>
+Your subscription gives you FynCom credit to use as Rewards each month, inclusive of commission. No roll overs.
 
 <sup>1</sup>**Rewards Campaigns** <br>
-The number of active Rewards Campaigns your plan can have at a time. 
-
-<br>
+The number of active Rewards Campaigns your plan can have at a time.
 
 <sup>2</sup>**Commission** <br>
 The commission is based on reward size and is only paid to FynCom when a response is received or desired action completed. <br>
@@ -112,7 +109,6 @@ Here is the same sample for all plans. <br>
 | Commission to FynCom                      | $0.30 | $0.15 | $0.05  |
 | Amount deducted from your FynCom balance  | $1.30 | $1.15 | $1.05  |
 
-<br>
 
 <sup>3</sup>**Advanced Data Insights** <br>
 Be the first to know the optimal rewards sizes to deliver to certain demographics and at which point of the journey to deliver said rewards.
@@ -141,14 +137,28 @@ Be the first to know the optimal rewards sizes to deliver to certain demographic
         table td {
             font-size: 24px;
         }
+        table.small {
+            /* table-layout: auto; */
+            width: 600px;
+            white-space:nowrap;
+            max-width:100%;
+        }
+        table.small td:first-child {
+            font-size: 14px;
+            font-weight: bold;
+            width: 31%;
+        }
+        table.small td {
+            font-size: 12px;
+        }
         button {
             font-size: 24px;
         }
         p {
-            font-size: 18px;
+            font-size: 12px;
         }
         strong {
-            font-size: 20px;
+            font-size: 16px;
         }
         h1 {
             font-size: 36px;

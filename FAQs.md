@@ -5,7 +5,41 @@
 ## FynCom FAQs 
 </summary><blockquote>
 
+<details open><summary>
 
+### Is there a free version?
+</summary><blockquote>
+
+No. The closest we have is the Standard plan, which charges you $50 per month, but give you $20 in rewards to spend each month. <br>
+We're in the business of helping you get more responses, feedback, & engagement by adding Interactive Rewards into your workflow. <br>
+The hardest part of using Interactive Rewards, is getting started. Once you do this on a regular basis, you'll wish you had done it earlier. 
+
+<details><summary>
+
+#### So I lose $20 if I don't use my Use it or Lose it Credits?
+</summary><blockquote>
+
+No. We help you automate the spending of your Use it or Lose it Credits each month before it expires. <br>
+Even if it does not go to a customer, it should be used to give you a little treat 😉 <br>
+Here's how we help.
+
+[//]: # (Let's say you've rewarded $10 worth of responses this month, and you are left with $7.)
+1. In your settings, select how you would like the remaining balance of your monthly rewards to be spent in case you have not used it.
+    * Directly send the remaining balance (minus commission), at random, to...
+      * One of the emails who have interacted with your campaigns this month
+      * Anyone who has a FynCom account under your plan (typically employees, or marketing team)
+      * A list of emails you upload into your settings
+    * Send an Interactive Rewards email that offers the remaining balance (minus commission) in exchange for a survey response
+      * Can be sent to one of the same set of 3 categories above
+
+If neither of these options are chosen, we default to sending the remaining balance (minus commission) to the primary admin who created the account. <br>
+Our commission is deducted from the remaining balance - the same commission would be deducted if you use these credits in a campaign. <br> 
+
+</blockquote></details>
+</blockquote></details>
+
+
+<br>
 <details open><summary>
 
 ### What is the best way to use rewards?
