@@ -10,6 +10,8 @@ Customer should use <a href="https://dashboard.fyncom.com" target="_blank">[dash
         *  <a href="https://zapier.com/shared/d3b8c380ec3e92855d6160075e243e4fc0cab081" target="_blank">[Calendly rewards - Reward someone for booking a meeting.]</a> 
         *  <a href="https://zapier.com/shared/6ec3d6005364fc5735a80342fbc878376556d22f" target="_blank">[Google form rewards - Reward someone for completing a Google form.]</a> 
         *  <a href="https://zapier.com/shared/5605b1ceffcf3fe14d5cdd91717847590d849841" target="_blank">[Typeform rewards - Reward someone for completing a Typeform.]</a> 
+        *  <a href="https://zapier.com/shared/a2c7ce97ced1465073c2762f8545fb4edd543efb" target="_blank">[Chili Piper rewards - Reward someone for booking a meeting.]</a> 
+        *  <a href="https://zapier.com/shared/612003c2ceabcc70fcad4b2a110e3edaee3dc0b4" target="_blank">[Google Calendar rewards - Reward someone X minutes before an event's start time.]</a> 
 
 <a href="https://www.fyncom.com/zapier-rewards" target="_blank">[Ready to wow your customers with automated rewards? Detailed instructions here]</a>
 
