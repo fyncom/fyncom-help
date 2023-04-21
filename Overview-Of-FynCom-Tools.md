@@ -49,7 +49,7 @@ There are 2 options for rewarding email engagement.
 You may choose to reward someone for clicking a link in your email. This option should only be used if you want to drive traffic to a specific landing page. <br>
 If interested in this feature, please contact us at support@fyncom.com
 
-## Email Case Study - FynCom &amp; Marketing Executives.
+## Email Case Study - FynCom &amp; Marketing Executives
 
 1,000 executives in the Marketing &amp; Advertising space were cold-emailed with information about FynCom. This email contained no language about them 
 receiving a reward. A week later, the same 1,000 executives were sent a FynMail, which informed them that they could receive a reward by simply responding. 
@@ -60,7 +60,7 @@ This resulted in a 323% increase in positive response rates. Using FynMails is a
 You can reward someone for responding to a text message. <a href="https://www.slicktext.com/" target="_blank">[Slicktext]</a> is our current text message platform of choice. 
 More <a href="https://docs.google.com/document/d/1g6aD-PduabC7FffhTBFVFvFJe6detAaC3X18RikApj4/edit?usp=sharing" target="_blank">[documentation here]</a>.
 
-## Call Rewards (FynCall) - Only ready for fearless early adopters.
+## Call Rewards (FynCall) - Only ready for fearless early adopters
 
 This uses a Text/Call/Text system.
 
