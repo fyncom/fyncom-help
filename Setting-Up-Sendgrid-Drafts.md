@@ -38,7 +38,7 @@ Campaign that should be associated with this email._
     - Unsubscribe Group
         - Select the unsubscribe group you want to be associated with this send. 
 - Sendgrid will auto-save this draft for you as you work, but just to be safe, click the "Save" button at the top. Do NOT send this yet. [Next, we will go into 
-the FynCom dashboard to attach a reward campaign to your draft and then send from your FynCom dashboard.](https://www.fyncom.com/add-fyncom-rewards-to-sendgrid-marketing-email)
+the FynCom dashboard to attach a reward campaign to your draft and then send from your FynCom dashboard.](https://www.fyncom.com/add-fyncom-rewards-to-sendgrid-marketing-email)<br>
 ![When done filling out the required fields in Sendgrid, you are ready to head to FynCom dashboard to send](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/1+Setting+up+Sendgrid+Drafts.png)
 
 
