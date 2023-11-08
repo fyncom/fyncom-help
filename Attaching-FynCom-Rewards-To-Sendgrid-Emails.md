@@ -28,7 +28,7 @@ First, please make sure that you or your organization have input your Sendgrid A
       | ![email page without template selected goes here](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/3.png)| ![After selecting the draft, the subject of that draft is visible](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/5.png) |
     
     - Note: If there are any incomplete fields in your draft, the dashboard will let you know with an error message. If you see any of these error messages,
-    please go into your Sendgrid account and fix that error for that draft located in your ["Single Sends"](https://mc.sendgrid.com/single-sends?view=raw).
+    please go into your Sendgrid account and fix that error for that draft located in your ["Single Sends"](https://mc.sendgrid.com/single-sends?view=raw). <br>
     ![Your FynCom dashboard will display an error message if your Sendgrid draft is not ready to send](https://fyncom-static-files.s3.us-west-1.amazonaws.com/help/4.png)
 
 - Now just hit the “Send email” and you’re done!
